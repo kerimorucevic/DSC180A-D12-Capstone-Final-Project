@@ -1,0 +1,90 @@
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__transfers zelle payment to [name] <id>
+__label__debt_credit_payments afterpay 185- <id> ca <date>
+__label__debt_credit_payments afterpay ca <date>
+__label__subscriptions_entertainment purchase authorized on <date> apple.com/bill ca <id> card <num>
+__label__transfers online transfer from sav ... <num> transaction#: <id>
+__label__transfers transfer from chime savings account
+__label__uncertain_unidentifiable card
+__label__uncertain_unidentifiable date <date> 522
+__label__uncertain_unidentifiable date <date> 202
+__label__shopping dollar general
+__label__shopping dollar general
+__label__transfers transfer to credit builder
+__label__transfers transfer from credit builder
+__label__transfers money transfer authorized on <date> apple cash sent mo <id> ca <id> card <num>
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal authorized on <date> <num> 8th ave s berry hill tn <num> atm id <num> u card <num>
+__label__cash_out_atm atm withdrawal authorized on <date> <num> 8th ave s berry hill tn <num> atm id <num> r card <num>
+__label__debt_credit_payments earnin repayment <id> [name]
+__label__debt_credit_payments mypay advance
+__label__debt_credit_payments mypay advance
+__label__transfers from savings - <num>
+__label__transfers from savings - <num>
+__label__transfers pos debit - visa check card <num> - cash app dashawn l oakland ca ladarrious d adams pos transaction
+__label__shopping family dollar
+__label__debt_credit_payments instant pmt from earnin de on <date> ref# <id> earnin
+__label__transfers online banking transfer to chk <num> confirmation# <acct>
+__label__food_drink purchase authorized on <date> reds discount liqu orange tx <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> sw.jbox game nv <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> sw.jbox game nv <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> sw.jbox game nv <id> card <num>
+__label__shopping amazon
+__label__debt_credit_payments mypay repayment
+__label__bills_utilities recurring payment authorized on <date> spectrum mobile mo <id> card <num>
+__label__transfers pos debit - visa check card <num> - paypal deloach ch visa direc [name] pos transaction
+__label__transfers zelle payment to renna conf# noibfulea
+__label__debt_credit_payments advance financia autopay <num> <id> [name]
+__label__debt_credit_payments affirm.com payme affirm.com st- <id> [name]
+__label__debt_credit_payments affirm.com payments affirm.com ca <date>
+__label__debt_credit_payments afterpay vis <num> afterpay.co ca debit card purchase * <num>
+__label__groceries aldi
+__label__transfers apple cash inst xfer cupertino ca <num> <date>
+__label__gas arco # <num> hawthorne ca <num> <date>
+__label__uncertain_unidentifiable arcoiris 3 vis <num> rio grande tx debit card purchase * <num>
+__label__debt_credit_payments atlasfinancial des:payment id: <id> indn:[name] co id: <acct> web
+__label__subscriptions_entertainment purchase authorized on <date> baca game las vegas nv <id> card <num>
+__label__uncertain_unidentifiable ca mcc: <num>
+__label__debt_credit_payments cleo salary ad <date> # <acct> pmnt rcvd cleo salary advan
+__label__debt_credit_payments *credit genie cash
+__label__groceries purchase authorized on <date> danny's super f orange tx <id> card <num>
+__label__food_drink purchase <num> dd *doordash walg san franciscoca <acct>
+__label__fees_adjustments debit card withdrawal fee
+__label__income_deposits deposit saavedra andrew san jose ca date x xx 4
+__label__income_deposits dividend (gt20)dividend
+__label__income_deposits fidelity investm fidelity ppd id: <id>
+__label__debt_credit_payments purchase floatme subscription
+__label__food_drink galaxy lounge 2
+__label__debt_credit_payments grant repayment vis <num> san francis ca recurring debit card * <num>
+__label__subscriptions_entertainment recurring payment authorized on <date> hlu*huluplus hulu.com/bill ca <id> card <num>
+__label__uncertain_ambiguous_merchant hollywood <id> orlando fl <date>
+__label__groceries purchase authorized on <date> ic* instacart instacart.com ca <id> card <num>
+__label__uncertain_unidentifiable checkcard <num> jointrue.com vancouver wa <acct>
+__label__debt_credit_payments checkcard <num> klover app cas
+__label__groceries mariano's
+__label__uncertain_ambiguous_merchant [name] market
+__label__shopping purchase authorized on <date> new wave promos instagram.com tx <id> card <num>
+__label__transfers online transfer from brewer r <id> savings <acct> ref # <id> on <date>
+__label__subscriptions_entertainment purchase authorized on <date> prime video *5z02v wa <id> card <num>
+__label__uncertain_ambiguous_merchant purchase authorized on <date> qt <num> dallas tx <id> card <num>
+__label__debt_credit_payments refunded purchase floatme
+__label__fees_adjustments returned withdrawal payment
+__label__shopping purchase authorized on <date> ross store # <num> cypress tx <id> card <num>
+__label__transfers roundup *spectrum mobile
+__label__uncertain_unidentifiable se* <num> n <num> <num> rio grande c tx pos purchase pos* <num> * <num> rio
+__label__shopping purchase authorized on <date> smokers paradise # vinton la <id> card <num>
+__label__food_drink sonic
+__label__uncertain_ambiguous_merchant purchase authorized on <date> speedway <num> st. petersbur fl <id> card <num>
+__label__food_drink starbucks
+__label__debt_credit_payments tilt cash advance vis <num> san francis ca visa payment credit * <num>
+__label__transfers transfer to checking account
+__label__food_drink checkcard <num> tst*sidetrack bar chicago il <acct>
+__label__income_deposits twn of n hempste payroll ppd id: <id>
+__label__income_deposits uber pro card*[name] fancisco <id> <date>
+__label__shopping purchase authorized on <date> vape life dallas tx <id> card <num>
+__label__debt_credit_payments vola vola imkro4
+__label__bills_utilities wash multifamily laundry systems
+__label__groceries westtown foo- <num>
+__label__transfers zelle hard post - zelle db hope quarles-de zelle db hope quarles-de zelle debit

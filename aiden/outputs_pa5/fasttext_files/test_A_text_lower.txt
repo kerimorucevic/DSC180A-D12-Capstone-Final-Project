@@ -1,0 +1,90 @@
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__transfers zelle payment to [name] jpm99bk33inz
+__label__debt_credit_payments afterpay 185-52896014 ca 11/27
+__label__debt_credit_payments afterpay ca 12/27
+__label__subscriptions_entertainment purchase authorized on 12/11 apple.com/bill ca s585345729418586 card 4150
+__label__transfers online transfer from sav ...7253 transaction#: 27130644760
+__label__transfers transfer from chime savings account
+__label__uncertain_unidentifiable card
+__label__uncertain_unidentifiable date 11/27/25 522
+__label__uncertain_unidentifiable date 12/14/25 202
+__label__shopping dollar general
+__label__shopping dollar general
+__label__transfers transfer to credit builder
+__label__transfers transfer from credit builder
+__label__transfers money transfer authorized on 10/31 apple cash sent mo 1infiniteloop ca s305304411119065 card 4150
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal authorized on 09/04 2331 8th ave s berry hill tn 0008854 atm id 4290u card 9885
+__label__cash_out_atm atm withdrawal authorized on 09/29 2331 8th ave s berry hill tn 0002896 atm id 4290r card 9885
+__label__debt_credit_payments earnin repayment 1043216134 [name]
+__label__debt_credit_payments mypay advance
+__label__debt_credit_payments mypay advance
+__label__transfers from savings - 1062
+__label__transfers from savings - 1062
+__label__transfers pos debit - visa check card 5552 - cash app dashawn l oakland ca ladarrious d adams pos transaction
+__label__shopping family dollar
+__label__debt_credit_payments instant pmt from earnin de on 08/25 ref#20250825101115315p1bcled00000027971 earnin
+__label__transfers online banking transfer to chk 0240 confirmation# xxxxx37301
+__label__food_drink purchase authorized on 08/04 reds discount liqu orange tx s585216730894236 card 3688
+__label__subscriptions_entertainment purchase authorized on 10/23 sw.jbox game nv s355296859716792 card 3143
+__label__subscriptions_entertainment purchase authorized on 12/04 sw.jbox game nv s465338742504019 card 3143
+__label__subscriptions_entertainment purchase authorized on 12/06 sw.jbox game nv s355340297301892 card 3143
+__label__shopping amazon
+__label__debt_credit_payments mypay repayment
+__label__bills_utilities recurring payment authorized on 10/19 spectrum mobile mo s345293095535644 card 4886
+__label__transfers pos debit - visa check card 4414 - paypal deloach ch visa direc [name] pos transaction
+__label__transfers zelle payment to renna conf# noibfulea
+__label__debt_credit_payments advance financia autopay 141225 49115633 [name]
+__label__debt_credit_payments affirm.com payme affirm.com st-n8c1h4c3c5u1 [name]
+__label__debt_credit_payments affirm.com payments affirm.com ca 10/13
+__label__debt_credit_payments afterpay vis 1214 afterpay.co ca debit card purchase *3348
+__label__groceries aldi
+__label__transfers apple cash inst xfer cupertino ca 683633 01/02
+__label__gas arco #42016 hawthorne ca 735461 10/22
+__label__uncertain_unidentifiable arcoiris 3 vis 1012 rio grande tx debit card purchase *7286
+__label__debt_credit_payments atlasfinancial des:payment id:11m9ck285wxyagj indn:[name] co id:xxxxx71684 web
+__label__subscriptions_entertainment purchase authorized on 12/14 baca game las vegas nv s465348558052166 card 0309
+__label__uncertain_unidentifiable ca mcc: 5411
+__label__debt_credit_payments cleo salary ad 08/13 #xxxxx7957 pmnt rcvd cleo salary advan
+__label__debt_credit_payments *credit genie cash
+__label__groceries purchase authorized on 11/17 danny's super f orange tx p000000881382962 card 3688
+__label__food_drink purchase 1123 dd *doordash walg san franciscoca xxxxx0953xxxxxxxxxx4612
+__label__fees_adjustments debit card withdrawal fee
+__label__income_deposits deposit saavedra andrew san jose ca date x xx 4
+__label__income_deposits dividend (gt20)dividend
+__label__income_deposits fidelity investm fidelity ppd id: 9050197921
+__label__debt_credit_payments purchase floatme subscription
+__label__food_drink galaxy lounge 2
+__label__debt_credit_payments grant repayment vis 0930 san francis ca recurring debit card *7273
+__label__subscriptions_entertainment recurring payment authorized on 12/06 hlu*huluplus hulu.com/bill ca s385340608158102 card 4886
+__label__uncertain_ambiguous_merchant hollywood mini01200260 orlando fl 09/26
+__label__groceries purchase authorized on 10/29 ic* instacart instacart.com ca s305303043204929 card 6247
+__label__uncertain_unidentifiable checkcard 1219 jointrue.com vancouver wa xxxxx5553xxxxxxxxxx5207
+__label__debt_credit_payments checkcard 1210 klover app cas
+__label__groceries mariano's
+__label__uncertain_ambiguous_merchant [name] market
+__label__shopping purchase authorized on 09/08 new wave promos instagram.com tx s585252046001025 card 6247
+__label__transfers online transfer from brewer r way2save savings xxxxxx4635 ref #ib0tr5hnp6 on 09/01/25
+__label__subscriptions_entertainment purchase authorized on 08/14 prime video *5z02v wa s585226576605995 card 0675
+__label__uncertain_ambiguous_merchant purchase authorized on 11/21 qt 1935 dallas tx s305325528999631 card 4886
+__label__debt_credit_payments refunded purchase floatme
+__label__fees_adjustments returned withdrawal payment
+__label__shopping purchase authorized on 08/21 ross store #1963 cypress tx s585234029801547 card 6247
+__label__transfers roundup *spectrum mobile
+__label__uncertain_unidentifiable se*0601 n0915 7733rio grande c tx pos purchase pos*7302 *1972 rio
+__label__shopping purchase authorized on 12/15 smokers paradise # vinton la s385350002985899 card 3688
+__label__food_drink sonic
+__label__uncertain_ambiguous_merchant purchase authorized on 12/28 speedway 46805 st. petersbur fl p000000657005926 card 9885
+__label__food_drink starbucks
+__label__debt_credit_payments tilt cash advance vis 1013 san francis ca visa payment credit *5008
+__label__transfers transfer to checking account
+__label__food_drink checkcard 0914 tst*sidetrack bar chicago il xxxxx1652xxxxxxxxxx8193
+__label__income_deposits twn of n hempste payroll ppd id: 1116001933
+__label__income_deposits uber pro card*[name] fancisco ca380551 11/18
+__label__shopping purchase authorized on 12/30 vape life dallas tx p585364793627864 card 4886
+__label__debt_credit_payments vola vola imkro4
+__label__bills_utilities wash multifamily laundry systems
+__label__groceries westtown foo-272749
+__label__transfers zelle hard post - zelle db hope quarles-de zelle db hope quarles-de zelle debit

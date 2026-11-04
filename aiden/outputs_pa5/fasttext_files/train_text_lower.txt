@@ -1,0 +1,679 @@
+__label__transfers zelle payment to [name] jpm99aa9jfks
+__label__transfers cash app*[name]*san franciscocaus
+__label__subscriptions_entertainment google *tiktok mountain viewca card# *1210 pos deb 0139 09/16/24 04483022
+__label__transfers online transfer to brewer r everyday checking xxxxxx2783 ref #ib0p6h3lh9 on 08/11/24
+__label__transfers internet banking e-transfer 105121339333 [name]
+__label__transfers cash app*[name]*ad 800-9691940 ca
+__label__subscriptions_entertainment google
+__label__groceries harris te 750 05/08 #xxxxx6192 mobile purchase harris te 750 w w apex nc
+__label__gas withdrawal pos / amoco#1204300co oakdale oakdale pa
+__label__finance_investments money transfer authorized on 06/19 coinbase https://www.f ca s463171242465228 card 6502
+__label__transfers pos return cash app*mercedes / partesan franciscocaus card #7009
+__label__shopping family dollar
+__label__food_drink 365 market 888 432
+__label__income_deposits edeposit in branch 06/20/24 01:38:16 pm 2821 business center dr pearland tx 1878
+__label__food_drink starbucks
+__label__shopping pos adjustment - aliexpress 114-087855580ca aliexpress 114-087855580ca pos adjustment - cr
+__label__food_drink debit card return at mcdonald's f33227, country club, il on 060424 to card#: xxxxxxxxxxxx3485
+__label__income_deposits deposit
+__label__shopping stevenmadde inst xfer paypal ach web
+__label__transfers transfer from checking account
+__label__automotive purchase authorized on 09/18 max laser wash llc turbeville va s584262847219170 card 8525
+__label__travel uber trip
+__label__subscriptions_entertainment business to business ach rocket money premium st-v5w7s7v3n3w8 rocket money inc
+__label__cash_out_atm atm withdrawal 004569 06/021650 e gu
+__label__debt_credit_payments moneylion des:moneylion id:f42426b0aa614ad indn:[name] co id:xxxxx10865 web
+__label__food_drink 365 market 888 432-3299 troy mi 05/10
+__label__food_drink aramark
+__label__transfers roundup *chipotle online
+__label__groceries walmart.com 800-925-6278 ar
+__label__finance_investments crypto.com
+__label__groceries debit purchase food4less 20801 apple valleyca 05/26 card 9718
+__label__debt_credit_payments zip* quadpay anywhe 188-82743159 ny
+__label__uncertain_ambiguous_merchant internet banking fulfill request 104991395951 payper inc.
+__label__transfers transfer from chime savings account
+__label__transfers venmo
+__label__subscriptions_entertainment visa debit purchase olg 18003870098 north york ca posted 07 may 2024
+__label__cash_out_atm atm withdrawal authorized on 06/16 5407 se 111th st belleview fl 0004542 atm id 6078r card 9758
+__label__groceries safeway
+__label__food_drink purchase authorized on 09/20 tst*[name] dallas tx s584265157100683 card 5797
+__label__transfers transfer from varo savings account to varo bank account
+__label__subscriptions_entertainment arlo technologies inc 408-638-3750 ca
+__label__food_drink seaworld-food svc orlando fl 06/24
+__label__uncertain_ambiguous_merchant pos purchase 7eleven 29079 d2804 7eleven 29079
+__label__debt_credit_payments money transfer authorized on 05/01 from brigit ny s384122535382764 card 8061
+__label__shopping tjmaxx #0786 carle place ny 04/30
+__label__food_drink mcdonald's
+__label__bills_utilities t-mobile
+__label__food_drink purchase authorized on 02/20 reds discount liqu orange tx s304051852972374 card 3688
+__label__subscriptions_entertainment purchase authorized on 03/03 audiobooks.com 8558766195 md s303062554894010 card 7585
+__label__transfers jj545 tfr-to 6696455
+__label__subscriptions_entertainment purchase microsoft*microsoft 365425-6816830
+__label__shopping clearance outlet #115 san antonio tx
+__label__fees_adjustments atm fee - withdrawal p722397 nashville ncus atm fee - withdrawal
+__label__food_drink pos purchase opos dd/doordashstarbucksvanco
+__label__food_drink checkcard 0602 chipotle 1357 boston ma xxxxx0641xxxxxxxxxx2276
+__label__groceries wal-mart super center mesquite tx
+__label__uncertain_ambiguous_merchant parkers
+__label__food_drink ansonia discount wine &
+__label__food_drink burger king
+__label__transfers transfer from chime savings account
+__label__debt_credit_payments dave inc los angeles caus
+__label__food_drink market@work
+__label__subscriptions_entertainment checkcard 0920 apple.com/bill ca xxxxx1642xxxxxxxxxx6096 recurring
+__label__transfers transfer from wallet
+__label__uncertain_unidentifiable lfrc
+__label__gas # pemex 1436 washington blvd montebello ca mcc: 5542
+__label__groceries debit purchase wal-mart super cbonney lake wa 06/29 card 1454
+__label__transfers transfer to shares trf to other
+__label__fees_adjustments intl txn fee
+__label__transfers keep the change transfer to acct 6771 for 09/26/24
+__label__food_drink mcdonald's
+__label__shopping dollar tree
+__label__transfers pos adjustment - zelle [name] visa direct azus zelle [name] visa direct azus pos adjustment - cr
+__label__income_deposits newark beth isra payroll ppd id: 1203208050
+__label__subscriptions_entertainment winter garden bowl
+__label__transfers apple cash sent money 1infiniteloop
+__label__shopping etsy.com - blkqueenmagi 718-8557955 ny
+__label__uncertain_ambiguous_merchant 3147 get go cafe & mark
+__label__transfers withdrawal free interac e-transfer
+__label__transfers internet banking e-transfer 011034257828 [name]
+__label__debt_credit_payments cleo ai
+__label__uncertain_ambiguous_merchant racetrac
+__label__transfers from savings - 1062
+__label__food_drink purchase authorized on 11/23 365 market 888 432 troy mi s582327697785387 card 7121
+__label__transfers zelle payment to [name] 22117480060
+__label__uncertain_ambiguous_merchant pos db enmarket # 9100 03/26 420
+__label__shopping amazon
+__label__uncertain_ambiguous_merchant purchase authorized on 07/21 qt 806 outside marietta ga p464203592564671 card 1606
+__label__fees_adjustments reverse check xxxxxx0035
+__label__cash_out_atm atm withdrawal - fcli hudson bridge atm hudson bridge atm 052124 atm withdrawal
+__label__gas purchase shell service station lorton vaus
+__label__uncertain_ambiguous_merchant wawa
+__label__food_drink purchase authorized on 06/17 tst* lick ice crea columbia sc s584169826702504 card 3934
+__label__debt_credit_payments withdrawal ach credit one bank type: payment id: web000004 data: credit one bank,n.a. co: credit one bank name: [name] ach number: 122402139591887
+__label__food_drink checkcard 0320 boston college dining i chestnut hillma xxxxx0940xxxxxxxxxx2610
+__label__food_drink checkcard 0325 boston college dining i chestnut hillma xxxxx0940xxxxxxxxxx3387
+__label__food_drink checkcard 0404 boston college dining i chestnut hillma xxxxx0940xxxxxxxxxx8441
+__label__food_drink checkcard 0410 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx7002
+__label__food_drink checkcard 0416 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx2257
+__label__food_drink checkcard 0416 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx0565
+__label__food_drink checkcard 0416 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx0508
+__label__food_drink checkcard 0419 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx3514
+__label__food_drink checkcard 0418 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx1682
+__label__food_drink checkcard 0422 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx3401
+__label__food_drink checkcard 0422 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx4754
+__label__food_drink checkcard 0501 boston college dining i chestnut hillma xxxxx0941xxxxxxxxxx2584
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__transfers zelle payment to [name] 20173777182
+__label__transfers zelle payment from [name] 20497175962
+__label__transfers zelle payment from [name] wfct0s8mmksx
+__label__transfers zelle payment from [name] bacv5yg7thk9
+__label__debt_credit_payments recurring payment authorized on 12/10 afterpay 044-4123456 ca s463344501681060 card 9021
+__label__debt_credit_payments recurring payment authorized on 08/30 afterpay 185-52896014 ca s464243595646095 card 0675
+__label__debt_credit_payments afterpay 185-52896014 ca
+__label__subscriptions_entertainment recurring payment authorized on 03/02 apple.com/bill ca s384062412628914 card 3934
+__label__subscriptions_entertainment purchase authorized on 06/28 apple.com/bill 866-712-7753 ca s304181067420429 card 3781
+__label__subscriptions_entertainment recurring payment authorized on 01/08 apple.com/bill ca s385009143696837 card 0861
+__label__groceries point of sale - interac retail purchase 410219208752 nesters market
+__label__food_drink point of sale - interac retail purchase 000001001463 nslc #2481
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__transfers online transfer to sav ...7253 transaction#: 20734459988
+__label__transfers online transfer from sav ...7253 transaction#: 21522097119
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk-101115315 from: bnf-empower ref: gldfu7aix4xcdpv info: text-/vxr/00100000146385511rmtinf-empower cash advance iid: 20240922101115315p1bcled00000033564 recd: 11:26:00 trn: 0286981266gd
+__label__subscriptions_entertainment real time payment credit recd from aba/contr bnk-051504597 from: bnf-mvb bank inc ref: qkcj5j35jrp08-ct info: text-/vxr/00100000172069052rmtinf-fd sptsbk casino iid: 20241019051504597p1bpcts99518607066 recd: 12:24:36 trn: 0395901293gb
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk-101115315 from: bnf-empower ref: 8_hafcvetu9asq3 info: text-/vxr/00100000146385511rmtinf-empower cash advance iid: 20241228101115315p1bcled00000122948 recd: 21:54:55 trn: 0077521364gb
+__label__transfers transfer from chime savings account
+__label__transfers transfer from chime savings account
+__label__transfers transfer to chime savings account
+__label__transfers transfer to chime savings account
+__label__uncertain_unidentifiable pos db [name] 9100 11/22 437
+__label__uncertain_unidentifiable [name]
+__label__food_drink chick-fil-a #03623 317-776-4060 in 01/10
+__label__food_drink chick-fil-a #02710 vis 0603 leesburg va debit card purchase xxxxxxxxxxxxxxxx3157
+__label__uncertain_unidentifiable date 07/12/24 132
+__label__uncertain_unidentifiable date 09/22/24 705
+__label__debt_credit_payments pos adjustment - dave inc los angeles caus dave inc los angeles caus pos adjustment - cr
+__label__debt_credit_payments dave inc los angeles ca 224507 01/03
+__label__debt_credit_payments dave inc los angeles ca 02/07
+__label__shopping dollar general
+__label__shopping dollar general
+__label__uncertain_ambiguous_merchant internet banking fulfill request 104860597655 payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request 105000358449 payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request 105043362466 payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request 105072070082 payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request 105192769522 payper inc.
+__label__travel lyft
+__label__travel lyft
+__label__travel lyft
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__gas shell
+__label__gas shell
+__label__gas shell
+__label__transfers transfer from credit builder
+__label__transfers transfer from credit builder
+__label__transfers transfer to credit builder
+__label__travel uber
+__label__travel uber
+__label__food_drink uber eats
+__label__food_drink uber eats
+__label__food_drink uber eats
+__label__food_drink uber eats help.uber.com ca 11/15
+__label__food_drink uber eats help.uber.com ca 01/21
+__label__food_drink uber eats help.uber.com ca 06/16
+__label__food_drink uber eats help.uber.com ca 06/21
+__label__food_drink uber eats help.uber.com ca 09/14
+__label__transfers pos debit - visa check card 7876 - zelle david withe visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card 7876 - zelle [name] visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card 7876 - zelle [name] visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card 4414 - zelle calvin couc visa direct [name] pos transaction
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase or technologies 412606212261 5.00 cad @ 1.000000
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase baytree 417705806761 7.00 cad @ 1.000000
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase flexepayments.c 428207488740 5.00 cad @ 1.000000
+__label__subscriptions_entertainment point of sale - visa debit intl visa deb retail purchase powerplay 429916265703 15.00 cad @ 1.000000
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase c-rewards 432209164059 20.00 cad @ 1.000000
+__label__education debit purchase -visa pierce college 253-964-6700wa 10/06 card 1454
+__label__education debit purchase -visa pierce college 253-964-6700wa 12/12 card 1454
+__label__education debit purchase -visa pierce college lakewood wa 12/29 card 1454
+__label__education debit purchase -visa pierce college 253-964-6700wa 01/18 card 1454
+__label__education debit purchase -visa pierce college lakewood wa 09/09 card 1454
+__label__transfers money transfer authorized on 12/11 apple cash sent mo 1infiniteloop ca s584347032586042 card 6247
+__label__transfers money transfer authorized on 01/08 apple cash sent mo 1infiniteloop ca s385008711950552 card 6247
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal authorized on 09/19 3300 halifax rd south boston va 0007387 atm id 0144q card 8525
+__label__cash_out_atm atm withdrawal authorized on 11/04 7740 w sand lake rd orlando fl 0005522 atm id 0983o card 9875
+__label__debt_credit_payments brigit-com protection 230616 1aaf178d99354dd rozilyn weems
+__label__debt_credit_payments brigit-com protection 240926 5e1ffa8c52ac4cb [name]
+__label__debt_credit_payments brigit-com protection 241228 870381e9ea6e4b1 [name]
+__label__subscriptions_entertainment 1221apple.com/bill 866-712-7753
+__label__subscriptions_entertainment 0615apple.com/bill 866-712-7753
+__label__subscriptions_entertainment 1030apple.com/bill 866-712-7753
+__label__subscriptions_entertainment 0429apple.com/bill 866-712-7753
+__label__debt_credit_payments earnin repayment 762623890 web id: 9911126000
+__label__debt_credit_payments earnin repayment 240830805417415
+__label__groceries kroger
+__label__groceries pos db kroger #69 9100 08/26 318
+__label__groceries kroger
+__label__debt_credit_payments mypay advance
+__label__debt_credit_payments mypay advance
+__label__subscriptions_entertainment recurring purchase at patreon* membershi, internet, ca on 042724 from card#: xxxxxxxxxxxx3485
+__label__debt_credit_payments recurring purchase at afterpay, san francisco, ca on 051324 from card#: xxxxxxxxxxxx3485
+__label__debt_credit_payments recurring purchase at zip* app pay later, new york, ny on 073024 from card#: xxxxxxxxxxxx3485
+__label__debt_credit_payments recurring purchase at deferit* at&t 4of4, new york, ny on 082424 from card#: xxxxxxxxxxxx3485
+__label__transfers from savings - 1062
+__label__transfers from savings - 1062
+__label__education purchase authorized on 07/20 valencia college 800-609-8056 fl s383201540996427 card 9875
+__label__education purchase authorized on 08/15 valencia college 800-6098056 fl s463227494652043 card 9875
+__label__education purchase authorized on 12/20 valencia college 800-609-8056 fl s583354580900776 card 9875
+__label__education purchase authorized on 02/20 valencia college 800-609-8056 fl s584051602732496 card 9875
+__label__shopping debit purchase -visa amzn mktp us*hy8amzn.com/bilwa 03/27 card 1454
+__label__shopping debit purchase -visa amzn mktp us*t94amzn.com/bilwa 10/03 card 1454
+__label__shopping debit purchase -visa amzn mktp us*rn4amzn.com/bilwa 03/07 card 1454
+__label__shopping debit purchase -visa amzn mktp us*aq0amzn.com/bilwa 03/29 card 1454
+__label__transfers pos debit - visa check card 5552 - cash app ladarriou 3305552 ladarrious d adams pos transaction
+__label__transfers pos debit - visa check card 5552 - cash app sharano 13305552 ladarrious d adams pos transaction
+__label__bills_utilities point of sale - visa debit visa debit retail purchase google *magicja 411874930128
+__label__uncertain_ambiguous_merchant point of sale - visa debit visa debit retail purchase ilixium c rewar 417108414391
+__label__shopping point of sale - visa debit visa debit retail purchase amzn mktp ca 424257772106
+__label__groceries walmart
+__label__groceries walmart
+__label__groceries walmart
+__label__groceries walmart
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__income_deposits atm cash deposit 06/16 240 glen head rd
+__label__income_deposits atm cash deposit on 07/12 214 smith st perth amboy nj 0007302 atm id 0217e card 1399
+__label__income_deposits atm cash deposit on 01/18 3770 n 16th st orange tx 0009015 atm id 0112l card 3688
+__label__subscriptions_entertainment 1205paramount+ 888-274-5343 ca**
+__label__transfers money transfer authorized on 03/22 from [name] ca s584082806901191 card 0817
+__label__transfers money transfer authorized on 05/08 from [name] ca s384129585000905 card 0817
+__label__food_drink canteen vending altamonte spr fl 04/12
+__label__food_drink canteen vending altamonte spr fl 06/04
+__label__food_drink canteen vending altamonte spr fl 10/29
+__label__transfers cash app*schoride*add
+__label__gas chevron
+__label__gas chevron
+__label__gas chevron
+__label__gas citgo
+__label__gas citgo
+__label__finance_investments money transfer authorized on 10/12 coinbase https://www.f ca s583286054473776 card 9976
+__label__finance_investments money transfer authorized on 01/13 coinbase https://www.f ca s304014025165514 card 5628
+__label__finance_investments money transfer authorized on 01/30 coinbase https://www.f ca s385030593459077 card 6530
+__label__finance_investments purchase authorized on 03/17 coinbase, inc. 8325639309 ca s583076340534221 card 6502
+__label__finance_investments purchase authorized on 09/07 coinbase, inc. 8325639309 ca s383251244510608 card 9976
+__label__finance_investments purchase authorized on 11/15 coinbase, inc. 8325639309 ca s383319723253717 card 5628
+__label__income_deposits electronic funds transfer deposit province of b.c
+__label__transfers electronic funds transfer preauthorized debit afarberpart a. farber
+__label__shopping family dollar
+__label__shopping family dollar
+__label__groceries food lion
+__label__groceries food lion
+__label__groceries food lion
+__label__debt_credit_payments instant pmt from earnin rfegb_b on 07/28 ref#20240728101115315p1bcled00000039975 earnin
+__label__groceries key foods 1535 unionpo bronx ny 12/13
+__label__groceries key foods 1535 unionpo bronx ny 02/01
+__label__groceries key foods 1535 unionpo bronx ny 04/15
+__label__debt_credit_payments klover app boost chicago il 817542 08/04
+__label__debt_credit_payments purchase authorized on 07/24 klover app boost chicago il s464207142828755 card 3317
+__label__debt_credit_payments purchase authorized on 07/31 klover app boost chicago il s304214133232873 card 3317
+__label__uncertain_ambiguous_merchant kwik trip
+__label__uncertain_ambiguous_merchant kwik trip
+__label__groceries purchase authorized on 08/18 los primos grocery perth amboy nj s463230830863408 card 7121
+__label__groceries purchase authorized on 02/12 los primos grocery perth amboy nj s384043828198295 card 7121
+__label__groceries purchase authorized on 09/03 los primos grocery perth amboy nj s464247751007757 card 9377
+__label__food_drink purchase authorized on 07/20 365 market 888 432 troy mi s583201726423897 card 7121
+__label__food_drink purchase authorized on 01/04 365 market 888 432 troy mi s464004684753800 card 7121
+__label__food_drink purchase authorized on 09/20 365 market 888 432 troy mi s464264540871852 card 9644
+__label__transfers mobile banking transfer deposit 8793
+__label__transfers mobile banking transfer deposit 8793
+__label__transfers mobile banking transfer deposit 8793
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__transfers online banking transfer from chk 0240 confirmation# xxxxx58866
+__label__transfers online banking transfer from sav 6771 confirmation# xxxxx03231
+__label__transfers online transfer from alba m way2save savings xxxxxx5749 ref #ib0mfgg62k on 03/01/24
+__label__transfers online transfer from alba m way2save savings xxxxxx5749 ref #ib0qq7rpkz on 12/24/24
+__label__travel pos purchase opos paypal *uber 40293
+__label__travel pos purchase opos paypal *uber 40293
+__label__travel pos purchase opos paypal *uber 40293
+__label__transfers money transfer authorized on 07/19 from pilcher dylan fl s303200807937199 card 9758
+__label__transfers money transfer authorized on 11/22 from pilcher dylan fl s383326824744238 card 9758
+__label__transfers money transfer authorized on 04/22 from pilcher dylan fl s304113820570099 card 9758
+__label__transfers pmnt sent 0714 cash app*manishio xxxxx91940 ca xxxxx0241xxxxxxxxxx7046
+__label__transfers pmnt sent 0216 cash app*mia lidd xxxxx91940 ca xxxxx5550xxxxxxxxxx8915
+__label__food_drink purchase authorized on 05/20 reds discount liqu orange tx s304141802869263 card 3688
+__label__food_drink purchase authorized on 09/12 reds discount liqu orange tx s464256759949477 card 3688
+__label__finance_investments robinhood
+__label__transfers round up to savings
+__label__transfers round up to savings
+__label__transfers round up to savings
+__label__transfers transfer from varo bank account to varo savings account
+__label__transfers transfer from varo bank account to varo savings account
+__label__transfers transfer from varo bank account to varo savings account
+__label__travel uber trip help.uber.com ca
+__label__travel uber trip help.uber.com ca
+__label__travel uber trip help.uber.com ca 06/20
+__label__subscriptions_entertainment purchase authorized on 03/22 va lottery 8044209 804-420-9584 va s383081601434402 card 7585
+__label__subscriptions_entertainment purchase authorized on 10/29 va lottery 8044209 804-420-9584 va s383302831453044 card 3781
+__label__subscriptions_entertainment purchase authorized on 07/26 va lottery 8044209 804-420-9584 va s384208616366798 card 3781
+__label__transfers zelle payment from [name] conf# 4as8jbxfs
+__label__transfers zelle payment from [name] conf# uvmtl8su3
+__label__transfers zelle from [name] on 04/10 ref # jpm99af9fba7
+__label__transfers zelle to [name] on 01/16 ref #pp0yfqtw24
+__label__shopping amazon
+__label__subscriptions_entertainment amazon prime
+__label__shopping amzn mktp us*th93z28 amzn.com/bill wa 08/01
+__label__shopping purchase 0519 amzn mktp us*v35af2d63 amzn.com/billwa xxxxx1641xxxxxxxxxx9157
+__label__transfers money transfer authorized on 02/21 apple cash balance 877-233-8552 ca s304053147356423 card 9758
+__label__transfers apple cash balance ad ca 03/25
+__label__food_drink purchase authorized on 11/08 b vending malvern pa s583312635056812 card 9021
+__label__food_drink purchase authorized on 10/11 b vending malvern pa s384285568731193 card 4672
+__label__gas purchase authorized on 07/22 bp#1744523[name] p000000287202979 card 9758
+__label__gas bp#9198219anjum
+__label__debt_credit_payments purchase authorized on 05/19 brigit new york ny s303139307112482 card 7585
+__label__debt_credit_payments brigit new york ny 424888 01/24
+__label__debt_credit_payments money transfer authorized on 01/25 from brigit ny s305025776839618 card 3688
+__label__debt_credit_payments money transfer authorized on 02/07 from brigit ny s465038578341963 card 0861
+__label__debt_credit_payments capital one mobile pmt 230324 3rbiwtq42ezgzi8 rozilyn weems
+__label__debt_credit_payments capital one mobile pmt 3xmdsq01alj42sn web id: 9279744380
+__label__transfers cash app*[name] 8774174551 ca 06/08
+__label__transfers money transfer authorized on 06/18 cash app*[name] 8774174551 ca s303170185108569 card 6502
+__label__transfers point of sale withdrawal cash / app*mercedes parte800-9691940 caus card #6094
+__label__transfers point of sale withdrawal cash / app*mercedes parte800-9691940 caus card #7009
+__label__health_wellness recurring payment authorized on 11/16 central florida ym accounting@cf fl s383320478747461 card 9021
+__label__health_wellness recurring payment authorized on 12/16 central florida ym accounting@cf fl s583350325755558 card 9021
+__label__subscriptions_entertainment chaturbill 888-384-0848 ca 07/22
+__label__subscriptions_entertainment chaturbill 888-384-0848 ca 11/23
+__label__transfers dave.com p2p ***********oyce
+__label__transfers deposit internet transfer from: / xxxx5285
+__label__transfers deposit internet transfer from: / xxxx5285
+__label__shopping purchase authorized on 07/29 dollartree falls church va s383210564432262 card 3781
+__label__shopping purchase authorized on 11/21 dollartree falls church va s384326849595460 card 6168
+__label__debt_credit_payments earnin payment ppd id: 1296727000
+__label__debt_credit_payments earnin paymentret 434772149 web id: 9296297000
+__label__debt_credit_payments earnin paymentret 478405592 web id: 9296297000
+__label__debt_credit_payments earnin transfer palo alto ca 131128 01/23
+__label__debt_credit_payments earnin transfer palo alto ca 209955 02/10
+__label__debt_credit_payments empower 1000339687 ppd id: 7811879144
+__label__debt_credit_payments empower
+__label__debt_credit_payments instant pmt from moneylion instacash on 02/29 ref#20240229101115315p1bcled00000006241
+__label__debt_credit_payments instant pmt from moneylion instacash on 02/29 ref#20240229101115315p1bcled00000006289
+__label__transfers internet banking e-transfer 104884858546 [name]
+__label__transfers internet banking e-transfer 105169663349 [name]
+__label__income_deposits internet banking internet deposit 000000106056
+__label__transfers internet banking internet transfer 000000107252
+__label__professional_services intuit turbotax 8888081723 230505 cb265545789 intuit turbotax (888) 808-1723 ref:efecb26554578
+__label__professional_services intuit turbotax 8888081723 240607 cb320056946 intuit turbotax (888) 808-1723 ref:efecb32005694
+__label__uncertain_unidentifiable island ioasis 00901298 orlando fl 03/22
+__label__professional_services checkcard 0731 law offices of wi xxxxx85570 nc xxxxx3942xxxxxxxxxx2040
+__label__professional_services checkcard 1004 law offices of wi xxxxx85570 nc xxxxx3942xxxxxxxxxx0007
+__label__professional_services purchase legalnature +18888811139 deus
+__label__subscriptions_entertainment of london 06/24
+__label__subscriptions_entertainment of london 08/27
+__label__fees_adjustments non-chase atm fee-with
+__label__cash_out_atm non-wf atm withdrawal authorized on 09/30 4208 western ave. orange tx 464274846273764 atm id p428270 card 3688
+__label__cash_out_atm non-wf atm withdrawal authorized on 01/05 1880 hwy 109 s vinton la 305005680220633 atm id a654656 card 3688
+__label__transfers online transfer to xxxxxxxxxxxx4296
+__label__transfers online transfer from xxxxxxxxxxxx4296
+__label__transfers online transfer from hernandez p way2save savings xxxxxx9039 ref #ib0mvdqkp2 on 04/12/24
+__label__transfers online transfer from hernandez p way2save savings xxxxxx9039 ref #ib0nykchww on 07/24/24
+__label__groceries pos purchase opos ic* instacart +1888
+__label__groceries pos purchase opos ic* instacart +1888
+__label__groceries purchase authorized on 03/12 publix #1439 orlando fl s464072523038903 card 9875
+__label__groceries purchase authorized on 06/04 publix #1439 orlando fl s584156734440777 card 9875
+__label__shopping recurring debit purchase thefarmersdog.cothefarmersdony 05/11 card 1454
+__label__bills_utilities recurring debit purchase spectrum 855-707-7328mo 05/15 card 9718
+__label__bills_utilities purchase authorized on 01/25 reliant energy tx s464025756157889 card 4886
+__label__transfers round up - checking
+__label__transfers round up - checking
+__label__transfers save as you go transfer debit to xxxxxxxxxxx5951
+__label__transfers save as you go transfer debit to xxxxxxxxxxx5951
+__label__transfers save your change
+__label__transfers save your change
+__label__subscriptions_entertainment spotify
+__label__uncertain_unidentifiable purchase authorized on 10/24 store south boston va s304299004830553 card 8009
+__label__uncertain_unidentifiable purchase authorized on 01/03 store south boston va s585003798241494 card 0861
+__label__gas sunoco
+__label__gas sunoco
+__label__shopping purchase authorized on 07/21 target 0001 falls church va s583202557314621 card 3781
+__label__shopping purchase authorized on 08/19 target 0001 falls church va s383231781331128 card 3781
+__label__transfers transfer from varo savings account to varo bank account
+__label__transfers transfer from varo savings account to varo bank account
+__label__food_drink uber *eats san francisco ca 774991 02/16
+__label__food_drink withdrawal pos / uber *eats san francisco ca
+__label__subscriptions_entertainment underdog
+__label__subscriptions_entertainment underdog
+__label__subscriptions_entertainment purchase authorized on 08/23 valottery 734-375-3904 va s583235492309513 card 3781
+__label__subscriptions_entertainment purchase authorized on 08/14 valottery 734-375-3904 va s384228107057645 card 3781
+__label__food_drink purchase authorized on 01/03 365 vend llc 3 troy mi s384003694846679 card 3688
+__label__food_drink purchase authorized on 09/17 365 vend llc 3 troy mi s384261467744704 card 3688
+__label__shopping debit purchase -visa amazon.com*5y868seattle wa 04/14 card 1454
+__label__shopping debit purchase -visa amazon.com*527gsseattle wa 06/16 card 1454
+__label__uncertain_unidentifiable debit purchase -visa 6 bucks sumner wa 03/19 card 1454
+__label__uncertain_unidentifiable debit purchase -visa 6 bucks sumner wa 07/07 card 1454
+__label__gas pos debit - visa check card 4414 - bp 2098800flint ri jonesboro [name] pos transaction
+__label__gas pos debit - visa check card 5552 - bp 1958700bi ri nashville ladarrious d adams pos transaction
+__label__food_drink debit purchase -visa cpa clb conc seattle wa 09/27 card 1454
+__label__food_drink debit purchase -visa cpa clb conc seattle wa 09/27 card 1454
+__label__transfers visa money transfer - perren shontal
+__label__transfers visa money transfer - perren shontal
+__label__fees_adjustments abm network fee
+__label__travel mobile purchase 0831 ac hotel raleigh raleigh nc xxxxx8642xxxxxxxxxx2476
+__label__travel ace parking
+__label__health_wellness purchase authorized on 10/25 advanced pharmacy freehold nj s463298654989544 card 7121
+__label__debt_credit_payments affirm inc affirm pay 2966962 web id: 0000317218
+__label__debt_credit_payments affirm * pay f5a53v1y ca 11/08
+__label__debt_credit_payments recurring payment authorized on 11/13 affirm * pay sohbr ca s304318704008980 card 0675
+__label__bills_utilities agi*tmo service fee 866-866-6285 pa 02/16
+__label__travel purchase authorized on 08/18 airbnb hmdpe5ay4c airbnb.com ca s303230734297912 card 9976
+__label__travel purchase 0928 airbnb * hmtws8y4 xxxxx47262 ca xxxxx2442xxxxxxxxxx9140
+__label__transfers albert savings edi pymnts xxxxx3286 [name]
+__label__bills_utilities allstate
+__label__gas am gas inc
+__label__shopping ansonia exotic shop llc
+__label__food_drink purchase authorized on 12/29 anthony's restaura falls church va s463363835294494 card 3781
+__label__automotive debit card purchase at advance auto parts, dolton, il on 071424 from card#: xxxxxxxxxxxx3485
+__label__income_deposits atm deposit - coop affinity f c u ce deposit
+__label__fees_adjustments atm fee atm inq the gastri x1253 whittier blvdus whittier ca mcc: 6011
+__label__fees_adjustments atm fee 011924plusterm19944 s [name] lake waus1
+__label__fees_adjustments atm fee 040923plusterm19205 state rt 4bonney lake waus1
+__label__fees_adjustments atm rebate (gt26)atm rebate
+__label__bills_utilities att* bill payment 800-331-0500 tx 12/29
+__label__debt_credit_payments web authorized pmt brigit-com
+__label__bills_utilities web authorized pmt comcast
+__label__income_deposits automated banking machine atm deposit summerland 1b99
+__label__automotive autozone 1389 austin tx
+__label__automotive autozone 058515102 nacogsan antonio tx
+__label__automotive purchase authorized on 06/29 autozone 6362 3208 sw ar gainesville fl p303180857103456 card 9758
+__label__debt_credit_payments avant llc 800-71 avant.com 240930 000001667521424 rozilyn weems
+__label__automotive purchase authorized on 04/05 barlow's tire south boston va s384096716415828 card 0817
+__label__groceries bjs wholesale #0 137 college point ny049853 10/01
+__label__bills_utilities boost mobile
+__label__education boston college des:bc epay id:xxxxx2658 indn:ziang rao co id:xxxxx99567 tel
+__label__gas bp#2115400lou p
+__label__fees_adjustments branch transaction memo - fees
+__label__fees_adjustments branch transaction monthly fixed overdraft fee
+__label__fees_adjustments branch transaction over limit fee
+__label__debt_credit_payments brigit-com membership 241017 81c519882aaa4ba rozilyn weems
+__label__subscriptions_entertainment 1020roku for britb 816-2728107 d
+__label__shopping purchase authorized on 11/20 burlington stores falls church va s303324844129557 card 3781
+__label__uncertain_unidentifiable c676 ocoee fl op
+__label__automotive purchase authorized on 08/28 ca dmv fee 678-7315516 tn s463241018502635 card 9976
+__label__income_deposits canadian child benefit canada
+__label__transfers cash app*agustina mart vis 0620 800-*1940 ca debit card purchase *7172
+__label__transfers cash app*bas cash.app nj 10/29
+__label__transfers money transfer authorized on 04/12 cash app*denise j ca s384103827612359 card 0817
+__label__transfers money transfer authorized on 09/12 cash app*kayleigh ca s304256672149758 card 1878
+__label__transfers cash app*mykal 8774174551 ca
+__label__transfers cash app*[name] vis 0112 800-*1940 ca debit card purchase *7014
+__label__food_drink purchase authorized on 11/18 casual pint of fal falls church va s583322647785605 card 3781
+__label__income_deposits ccmsi
+__label__income_deposits check deposit #21211586
+__label__food_drink purchase authorized on 08/19 the chicken place, falls church va s583231650542102 card 3781
+__label__food_drink church's chicken 54qps bayamon
+__label__food_drink churchs chicken 1619 balch springs tx
+__label__debt_credit_payments cleo* advance+express meetcleo.com de 01/24
+__label__debt_credit_payments recurring payment authorized on 10/15 cleo* advance repa httpswww.meet de s584289332173841 card 6530
+__label__fees_adjustments recurring payment authorized on 11/11 cleo* express fee httpswww.meet de s384316460762383 card 4886
+__label__debt_credit_payments cleo memphis tn 10/06
+__label__bills_utilities comcast
+__label__food_drink correction opos dd/doordashrealcanadvanco
+__label__groceries correction opos ic* instacart +1888
+__label__travel correction opos paypal *uber 40293
+__label__automotive crew carwash - greenwoo greenwood in 01/05
+__label__uncertain_unidentifiable purchase 7610 cruz falls church va card6168
+__label__health_wellness purchase authorized on 07/28 cvs/pharm 03215--5800 belleview p000000571265346 card 9758
+__label__health_wellness cvs/pharm 03894--120 e san antonio tx
+__label__health_wellness pos adjustment - cvs pharm 02468--581 f jonesboro us cvs pharm 02468--581 f jonesboro us pos adjustment - cr
+__label__health_wellness cvs/pharm 02734--1299 indianapolis in 06/23
+__label__health_wellness purchase authorized on 05/19 cvs/pharmacy #03 03215--5 belleview fl p384141027179622 card 9758
+__label__health_wellness cvs/pharmacy #04 0446 indianapolis in560910 04/30
+__label__health_wellness cvs/pharmacy #0585805858-san antonio tx
+__label__health_wellness withdrawal pos / cvs/pharmacy #04002 04002--70 west steuben
+__label__debt_credit_payments payment dave inc
+__label__food_drink dd *doordash dollargen
+__label__food_drink dd *doordash kfc ca 01/03
+__label__uncertain_unidentifiable purchase authorized on 07/01 dealer #4622 south boston va p304183320928325 card 3317
+__label__debt_credit_payments withdrawal debit card / withdrawal dave inc 1265 south cochran [name] angel
+__label__debt_credit_payments withdrawal debit card / withdrawal floatme fund i llc db 110 e houston st- sa
+__label__fees_adjustments deposit fee / deposit courtesy pay ref ref1118243848210000| 35.00
+__label__transfers deposit home banking zelle / deposit dustin longstret
+__label__uncertain_ambiguous_merchant dhale market
+__label__gifts_donations purchase authorized on 04/15 donation kimberl httpsdtcare.o pa s304106739995388 card 3934
+__label__food_drink 1128dd doordash ar 855-973-1040
+__label__food_drink 0126dd doordash ta 855-973-1040
+__label__travel purchase authorized on 07/22 e-z*passny tollbym 800-333-8655 ny s584204752511103 card 1399
+__label__debt_credit_payments money transfer authorized on 08/15 from earnin c600568457_1 ca s303227563702474 card 9021
+__label__debt_credit_payments earnin repayment xxxxx5879 maryfer alba
+__label__automotive purchase authorized on 12/05 el car wash drp 305-603-9565 fl s464340364612058 card 9875
+__label__food_drink purchase authorized on 06/24 el meson restauran woodbridge nj s383175784635262 card 7121
+__label__debt_credit_payments electronic deposit advance / financia - autopay
+__label__debt_credit_payments electronic withdrawal / brigit-com - membership
+__label__uncertain_unidentifiable electronic withdrawal evergreen servic
+__label__uncertain_unidentifiable electronic withdrawal gthw app limited
+__label__uncertain_ambiguous_merchant purchase authorized on 06/05 7-eleven maywood ca p383156744236236 card 6502
+__label__uncertain_ambiguous_merchant purchase authorized on 09/13 7-eleven orlando fl p000000587504778 card 4672
+__label__debt_credit_payments empower 1000335998 240118 empower advance noemytamayo
+__label__uncertain_ambiguous_merchant pos db enmarket # 9100 10/27 420
+__label__bills_utilities excellent insurance servi866-4480445 tx
+__label__uncertain_unidentifiable purchase authorized on 05/08 falls church liber falls church va s383128680967891 card 7585
+__label__uncertain_unidentifiable purchase authorized on 02/13 7610 [name] falls church va s304044591551825 card 3781
+__label__subscriptions_entertainment fd sptsbk casino viatrustly web id: 1204577926
+__label__fees_adjustments fee returned item
+__label__fees_adjustments fee / withdrawal non-network atm 2350 noblestown rd pittsburgh pa pj1983
+__label__shopping five belo 1260 old cou westbury ny 06/16
+__label__debt_credit_payments purchase authorized on 07/12 floatme corp san antonio tx s304195076659036 card 9758
+__label__debt_credit_payments purchase authorized on 01/25 floatme san antonio tx s584025740505688 card 9758
+__label__food_drink fouta halal food 2 the bronx ny 03/25
+__label__travel pos purchase fpos parking lot 2 calga
+__label__subscriptions_entertainment pos purchase fpos treehouse indoor placalga
+__label__bills_utilities frontier comm corp web
+__label__shopping galaxy comics inc brooklyn ny 100493 10/15
+__label__bills_utilities geico *auto 800-841-3000 dc
+__label__groceries purchase authorized on 06/11 giant 0233 falls church va s583162492758982 card 3781
+__label__gifts_donations gofundme help rachel redwood city ca 06/08
+__label__gifts_donations purchase authorized on 03/27 gofundme help sing redwood city ca s384088070176959 card 0817
+__label__income_deposits goodwill of nga payroll 241016 xxxxx3492 pinto henry
+__label__income_deposits money transfer authorized on 10/07 from gopuff pa s464281823655575 card 4886
+__label__uncertain_ambiguous_merchant greenfield pantry
+__label__travel greyhound
+__label__income_deposits gusto pay 731806 230908 6semjv48e7t rozilyn weems
+__label__uncertain_ambiguous_merchant hanini market
+__label__uncertain_ambiguous_merchant harborside mart
+__label__groceries purchase authorized on 03/02 harris teeter #027 falls church va s463061421670511 card 7585
+__label__travel hilton garden inn calg calgary ab
+__label__travel purchase authorized on 09/13 homewood suites falls church va s384257708170174 card 3781
+__label__subscriptions_entertainment checkcard 0728 hotmart candybarmegapac xxx-xx02623 de xxxxx2942xxxxxxxxxx2032
+__label__transfers hr402 tfr-to 6696455
+__label__groceries pos adjustment - ic instacart httpsinstacarca ic instacart httpsinstacarca pos adjustment - cr
+__label__debt_credit_payments web initiated payment at brigit-com protection 029148a90828474 091324
+__label__health_wellness insurance ab blue cross
+__label__bills_utilities insurance chubb life insurance co
+__label__bills_utilities insurance economical mutual ins. company
+__label__debt_credit_payments interbankcleo salar 9100 06/03 c
+__label__income_deposits interest earned
+__label__professional_services intuit *turbotax vis 0128 cl.intuit.c ca debit card purchase *7029
+__label__food_drink jersey mikes 6033 vis 1108 fairfax va debit card purchase xxxxxxxxxxxxxxxx3315
+__label__travel checkcard 0722 jetblue xxxxx144255 salt lake citut xxxxx2342xxxxxxxxxx6097
+__label__shopping purchase authorized on 08/19 kc beauty mart inc falls church va s303231719237032 card 3781
+__label__debt_credit_payments klarna klarna.com oh 10/10
+__label__debt_credit_payments purchase klarna*temu
+__label__debt_credit_payments purchase authorized on 01/14 klarna*temu columbus oh s465015004045787 card 0675
+__label__health_wellness la fitness
+__label__travel purchase authorized on 08/18 laz parking m32180 nashville tn s304231511447806 card 9885
+__label__groceries purchase authorized on 06/25 lidl #1469 falls church va s304177730522223 card 3781
+__label__shopping debit purchase lowe's #2895 bonney lake wa 08/10 card 1454
+__label__travel lyft ride fri 4am 855-865-9553 ca 09/22
+__label__travel lyft ride mon 8am 855-865-9553 ca
+__label__travel purchase authorized on 04/04 lyft ride thu 7a 855-865-9553 ca s384095417588229 card 5700
+__label__groceries maplebear, inc. san francisco ca 149570 12/20
+__label__travel masabi prtready2 ride
+__label__health_wellness purchase authorized on 01/25 mce outpatient pharmacy - nashville tn p305025861231802 card 9885
+__label__health_wellness merchant payment cvs/pharm 07166- - 716618 07166--250 west 144th s riverdale il on 092324 from card#: xxxxxxxxxxxx348x
+__label__health_wellness merchant payment - 306t21 walgreens 1633 w 95th chicago il on 042224 from card#: xxxxxxxxxxxx348x
+__label__travel purchase authorized on 08/23 meridien hotels new orleans la s384236739496014 card 3688
+__label__uncertain_ambiguous_merchant metro mart 4 1120 w highland av hermistonor c# *1210 pos deb 0736 08/16/24 83772478
+__label__subscriptions_entertainment mgm*betmgm cr & db jersey city nj
+__label__gifts_donations miscellaneous payment world vision canada
+__label__transfers moneygram us https://www.f tx 05/01
+__label__education monroe college bx burs 646-3938239 ny 12/06
+__label__fees_adjustments monthly service fee
+__label__bills_utilities purchase authorized on 01/08 natl gen ins*nps4e ny s585008843957797 card 0861
+__label__food_drink purchase authorized on 02/24 nyx*snack shop ven scottsburg va s465055503049946 card 0861
+__label__automotive o'reilly auto parts 825
+__label__automotive o'reilly 4371 n1204 7733rio grande c tx pos purchase pos*5002 *5421 rio
+__label__professional_services pos purchase opos www.mowsnowpros.com +1587
+__label__subscriptions_entertainment pos purchase opos amzn apps ca www.a
+__label__professional_services pos purchase opos in *numbers team inccalga
+__label__fees_adjustments overdraft fee redstone-fcu 1749 / rutherford blvd murfreesboro tnus
+__label__fees_adjustments overdraft interest
+__label__health_wellness parkchester pharmacy bronx ny 02/16
+__label__travel parkup parking app httpsparkup.a ca 09/27
+__label__health_wellness pf santa fe spri type: iclub fees id: gxx2737 co: pf santa fe spri ach ecc
+__label__subscriptions_entertainment purchase 1109 philo tv httpsphilo.coca xxxxx1643xxxxxxxxxx0794 recurring
+__label__travel plat parking 133 dallas tx 08/28
+__label__shopping platos closet 80548
+__label__food_drink purchase authorized on 12/02 pollo campero r019 falls church va s584337836205520 card 6168
+__label__food_drink purchase authorized on 11/21 popeye's 13194 falls church va s464326768532640 card 6168
+__label__bills_utilities progressive ins 800-776-4737 oh
+__label__debt_credit_payments recurring payment authorized on 12/06 progressive leasin 877-898-1970 ut s583340517537863 card 9021
+__label__debt_credit_payments recurring payment authorized on 02/14 rent a center e-co tx s465046237746899 card 0861
+__label__groceries purchase return authorized on 01/16 lidl #1469 falls church va s584016635951734 card 3781
+__label__fees_adjustments return item/overdraft
+__label__subscriptions_entertainment checkcard 0920 riot fest corporati chicago il xxxxx1642xxxxxxxxxx9225
+__label__health_wellness rite aid
+__label__health_wellness withdrawal pos / rite aid 07924 2270 noblestown road
+__label__automotive roger`s tire shop vis 0614 rio grande tx debit card purchase *2168
+__label__subscriptions_entertainment purchase authorized on 09/29 round1 am2 - scm w tukwila wa s464273796590954 card 6530
+__label__uncertain_ambiguous_merchant mobile purchase 0708 sarah mart chicago il xxxxx6041xxxxxxxxxx5433
+__label__gifts_donations recurring payment authorized on 11/28 scouting* donation www.scouting. tx s304333444647043 card 4672
+__label__fees_adjustments service charge
+__label__fees_adjustments service charge monthly fees
+__label__fees_adjustments to share 00 paper stm fee tf
+__label__gas checkcard 0914 shell service apex nc
+__label__food_drink purchase authorized on 02/16 sobro vending llc arlington tx s384047461473366 card 4886
+__label__shopping purchase authorized on 05/05 southern pig & cat ocala fl s583125758928454 card 9758
+__label__shopping sp carpe httpsmycarpe. nc 04/11
+__label__food_drink purchase authorized on 06/19 sp thee [name] theecookiegal tx s464171798330690 card 1878
+__label__uncertain_unidentifiable withdrawal pos / special way 721 north 4th stre us toronto
+__label__bills_utilities spectrum
+__label__uncertain_ambiguous_merchant purchase authorized on 03/25 sq *haz management orlando fl s464085602794799 card 8061
+__label__income_deposits *4236 ssi xxsupp secssi treas 310 ach credit sec
+__label__bills_utilities state farm
+__label__income_deposits stripe lyft 01-16 ***********r5e0
+__label__income_deposits stripe lyft 11-28 st-f4a9b6u3y9f2 ccd id: 4270465600
+__label__income_deposits stripe lyft 08-13 ***********v6w7
+__label__income_deposits stripe transfer ***********e5m2
+__label__transfers money transfer authorized on 09/29 super pay/super pay 18 san francisc ca s304273420629860 card 9875
+__label__bills_utilities purchase authorized on 11/19 t-mobile 6100 atlantic bl maywood ca p583323736346394 card 5628
+__label__bills_utilities t-mobile fdc paymen 240517 8474727 [name]
+__label__food_drink tia's taco hut / nb new braunfelstx
+__label__automotive 0919discount tire savannah ga***
+__label__education tms*monroe college 800-609-8056 ny 12/28
+__label__travel the toll roads of oc ca 09/05
+__label__debt_credit_payments ach transaction - cleo ai cleo ai 0027397636 ach debit
+__label__debt_credit_payments ach transaction - empower inc 39 ach debit
+__label__bills_utilities ach transaction - verizon vz billpay 0003100003 ach debit
+__label__travel 1005uber trip help.uber.comca***
+__label__food_drink checkcard 0511 tst* [name] - 888 c boston ma xxxxx4641xxxxxxxxxx2098
+__label__income_deposits uber instantpay deposit
+__label__travel uber one
+__label__travel uber *one 8005928996 ca 12/30
+__label__travel uber pass help.uber.com ca 01/08
+__label__travel pos db uber techn 9100 08/17 405
+__label__travel pos db uber *tr 9100 09/28 1515
+__label__travel uber* trip www.uber.com ca 09/04
+__label__travel purchase 0619 uber* trip ciudad de mex00 xxxxx9641xxxxxxxxxx8720
+__label__travel checkcard 0924 ubr* pending.u san franciscoca
+__label__fees_adjustments uncollected protection deposit
+__label__income_deposits universal city d batch ppd id: 1270000798
+__label__transfers uq425 tfr-to 6696455
+__label__transfers usaa funds transfer cr
+__label__bills_utilities pos debit- 1734 1734 verizon bill payme verizon.com fl
+__label__bills_utilities verizon wireless des:payments id:xxxxxxxxxx00001 indn:xxxxx0005717xxxxx00001 co id:xxxxx44794 ppd
+__label__bills_utilities ach verizon wireless payments ppd 4223344794 13
+__label__automotive pos debit - visa check card 4414 - advance auto parts jonesboro [name] pos transaction
+__label__health_wellness pos debit - visa check card 7876 - afc urgent care al 5857876 kokhita horton pos transaction
+__label__automotive pos debit - visa check card 7876 - autozone 5266 1128 11 irvingt kokhita horton pos transaction
+__label__automotive pos debit - visa check card 4414 - dobi tires autocare riverdal [name] pos transaction
+__label__automotive pos debit - visa check card 7876 - ogorman motors 973-3743593 nj kokhita horton pos transaction
+__label__health_wellness pos debit - visa check card 7876 - orange st dental a 857876 kokhita horton pos transaction
+__label__food_drink pos debit - visa check card 7876 - popeyes 3032 csd telniasofnj kokhita horton pos transaction
+__label__bills_utilities pos debit - visa check card 2579 - scana energy rec 19302579 [name] pos transaction
+__label__gas debit purchase -visa chevron 0207431 hesperia ca 07/11 card 9718
+__label__bills_utilities debit purchase -visa comcast bellingh800-266-2278wa 03/16 card 1454
+__label__uncertain_ambiguous_merchant debit purchase -visa pic n pump apple valleyca 02/09 card 9718
+__label__professional_services debit purchase -visa sq *1-800-got-jubonney lake wa 04/14 card 1454
+__label__food_drink purchase authorized on 07/03 waffle house houston tx s464185566496137 card 1878
+__label__uncertain_unidentifiable mobile purchase 0517 #12 wake county a apex nc xxxxx6141xxxxxxxxxx7157
+__label__health_wellness walgreens
+__label__health_wellness purchase authorized on 03/22 walgreens #3461 orlando fl s464082491671181 card 9875
+__label__health_wellness walgreens stor n0608 5613leesburg va pos purchase pos99999999 3413766 leesburg
+__label__health_wellness purchase authorized on 01/22 walgreens store 9456 16th seattle wa p384022611412000 card 5628
+__label__health_wellness purchase authorized on 08/27 walgreens store 9830 long south gate ca p463240026543601 card 9976
+__label__health_wellness purchase authorized on 07/13 walgreens store 401 poins clearwater be fl p464195469199553 card 9758
+__label__uncertain_ambiguous_merchant purchase authorized on 05/15 wawa 5337 ocala fl s463135615321622 card 9758
+__label__shopping pos purchase winners 508 winners 508 ed
+__label__cash_out_atm xxxxxxxxxx0898 01/20 #xxxxx6678 withdrwl metro main fl mei
+__label__transfers ww503 tfr-fr 6696455
+__label__food_drink purchase zaxbys 1071
+__label__transfers zelle payment from christiana ohenewaah 20296230327
+__label__transfers zelle pmt theresa 1tn000xmqszv
+__label__transfers zelle transfer from jarnycia o lyons
+__label__debt_credit_payments zip co us* quadpay any 188-82743159 ny

@@ -1,0 +1,90 @@
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase nflallday.com el segundo ca date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk*draftkingsvbyp <id> ma date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk*draftkingsfybu <id> ma date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase fanduelcasprimary <id> nj date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk* <id> <id> ma date <date> <id> <num> /withdrawal debit card debit-purchase
+__label__transfers online transfer to anderson p <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer to anderson p everyday checking <acct> ref # <id> on <date>
+__label__transfers online transfer from anderson p <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer to anderson p <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer to anderson p everyday checking <acct> ref # <id> on <date>
+__label__transfers online transfer from anderson p <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer from anderson p everyday checki
+__label__subscriptions_entertainment apple.com/bill ca <date>
+__label__subscriptions_entertainment real time payment credit recd from aba/contr bnk- <id> from: crowncoins casino/crowncoins casino cre ref: <id> info: text-/vxr/ <id> -crowncoins casino iid: <id> recd: 00:14:41 trn: <id>
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__debt_credit_payments dave inc los angeles ca <date>
+__label__debt_credit_payments dave inc los angeles ca <date>
+__label__gas shell
+__label__food_drink uber eats
+__label__transfers money transfer authorized on <date> apple cash sent mo <id> ca <id> card <num>
+__label__debt_credit_payments deposit debit card moneylion new york ny date <date> <id> <num> /deposit debit card
+__label__debt_credit_payments deposit debit card moneylion new york ny date <date> <id> <num> /deposit debit card
+__label__debt_credit_payments deposit debit card moneylion new york ny date <date> <id> <num> /deposit debit card
+__label__finance_investments robinhood
+__label__finance_investments robinhood
+__label__subscriptions_entertainment amazon prime
+__label__subscriptions_entertainment crowncoins ga <date>
+__label__subscriptions_entertainment crowncoins ga <date>
+__label__food_drink purchase authorized on <date> ctlp*canteen vendi charlotte nc <id> card <num>
+__label__food_drink purchase authorized on <date> ctlp*canteen vendi charlotte nc <id> card <num>
+__label__debt_credit_payments earnin
+__label__subscriptions_entertainment purchase authorized on <date> fanatics sportsboo new york ny <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> fanatics sportsboo new york ny <id> card <num>
+__label__fees_adjustments non-chase atm fee-with
+__label__subscriptions_entertainment spotify
+__label__transfers zelle to santi on <date> ref # <id>
+__label__transfers zelle to santi on <date> ref # <id>
+__label__subscriptions_entertainment apple
+__label__cash_out_atm atm withdrawal <num> 08/ <num> s pu
+__label__transfers money transfer authorized on <date> from [name] az <id> card <num>
+__label__debt_credit_payments recurring payment authorized on <date> beem app trybeem.com ca <id> card <num>
+__label__debt_credit_payments withdrawal bill payment # <id> grant repayment san francisco ca card <num> /withdrawal bill payment # <id>
+__label__debt_credit_payments withdrawal bill payment # <id> oneblinc salary adv <num> brickell ave miami fl/withdrawal bill payment # <id>
+__label__groceries purchase authorized on <date> carniceria murrietas mesa az <id> card <num>
+__label__debt_credit_payments cleo advance exp expres
+__label__subscriptions_entertainment crowncoinscasino.com ga <date>
+__label__food_drink purchase authorized on <date> ctlp*vip vending l peoria az <id> card <num>
+__label__debt_credit_payments dave davesubfee web id: <id>
+__label__income_deposits deposit at atm # <id> police and fire fcu <num> frankford ave philadelphia pa g1a005/deposit at atm # <id>
+__label__transfers deposit debit card cash app*strazz*cash ou oakland ca date <date> <id> <num> /deposit debit card
+__label__debt_credit_payments deposit debit card *creditgenie cash conshohocken pa date <date> <id> <num> /deposit debit card
+__label__debt_credit_payments deposit debit card onemainlnprcd visa direct in date <date> <id> <num> /deposit debit card
+__label__subscriptions_entertainment purchase authorized on <date> dk*draftkingsddhg <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk*draftkingsdgnh <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk*draftkingsgklx <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk*draftkingslvqq <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk* <id> <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk* <id> <id> ma <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> dk*draftkingsytsf <id> ma <id> card <num>
+__label__food_drink doordash
+__label__food_drink dunkin' donuts
+__label__subscriptions_entertainment withdrawal ach fanatics sptsbk type: retry pymt id: <id> co: fanatics sptsbk/withdrawal ach fanatics sptsbk
+__label__food_drink purchase authorized on <date> filibertos (southe mesa az <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> fliff, inc pa <id> card <num>
+__label__debt_credit_payments withdrawal ach float me, corp. type: floatme su id: <id> co: float me, corp./withdrawal ach float me, corp.
+__label__debt_credit_payments recurring payment authorized on <date> grant repayment san francisco ca <id> card <num>
+__label__debt_credit_payments grid* bal pay <id> getgrid.app ca <date>
+__label__subscriptions_entertainment hard rock bet
+__label__debt_credit_payments instacash repayment ny <date>
+__label__subscriptions_entertainment instant pmt from draftkings instant payments vi-draftkings instant payments vi on <date> ref# <id> 8hs4wd
+__label__food_drink purchase authorized on <date> mariscos mi lindo mesa az <id> card <num>
+__label__debt_credit_payments moneylion
+__label__fees_adjustments withdrawal nsf fee in the amount $50.00 fd sptsbk casino entry class code: web/withdrawal nsf fee
+__label__subscriptions_entertainment purchase authorized on <date> sidepot pa <id> card <num>
+__label__transfers payment from third prty pin no
+__label__debt_credit_payments tilt.com
+__label__debt_credit_payments tilt fka empower <id> ppd id: <id>
+__label__health_wellness purchase authorized on <date> ucsdh east campus san diego ca <id> card <num>
+__label__transfers venmo
+__label__subscriptions_entertainment purchase authorized on <date> wowvegas.com de <id> card <num>
+__label__transfers zelle payment from [name] <id>
+__label__transfers zelle to edi on <date> ref # <id>
+__label__transfers zelle to rafael on <date> ref # <id>

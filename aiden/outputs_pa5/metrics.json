@@ -1,0 +1,159 @@
+{
+  "label_status": "ai_suggested_rules (not yet human-reviewed)",
+  "n_rows": {
+    "train": 679,
+    "val": 135,
+    "test_A": 90,
+    "test_B": 90
+  },
+  "classes_in_train": 20,
+  "baseline": {
+    "val_f1": 0.5017215584802794,
+    "val_f1_sd": 0.0,
+    "val_acc": 0.6074074074074074,
+    "train_acc": 0.852233676975945
+  },
+  "final_params": {
+    "text_col": "text_lower",
+    "wordNgrams": 1,
+    "minn": 2,
+    "maxn": 5,
+    "minCount": 1,
+    "epoch": 50,
+    "lr": 1.0,
+    "dim": 200
+  },
+  "final_val": {
+    "macro_f1": 0.6799159356725145,
+    "macro_f1_sd": 0.011078541349581566,
+    "acc": 0.725925925925926
+  },
+  "tests": [
+    {
+      "split": "test_A",
+      "rows": 90,
+      "accounts": 22,
+      "correct": 55,
+      "acc": 0.6111111111111112,
+      "macro_f1": 0.511376858435682,
+      "pattern_in_train": 0.24444444444444444
+    },
+    {
+      "split": "test_B",
+      "rows": 90,
+      "accounts": 5,
+      "correct": 54,
+      "acc": 0.6,
+      "macro_f1": 0.5783553655646678,
+      "pattern_in_train": 0.13333333333333333
+    }
+  ],
+  "test_gambling_split": [
+    {
+      "split": "test_A",
+      "gambling": false,
+      "rows": 86,
+      "correct": 55,
+      "acc": 0.6395348837209303
+    },
+    {
+      "split": "test_A",
+      "gambling": true,
+      "rows": 4,
+      "correct": 0,
+      "acc": 0.0
+    },
+    {
+      "split": "test_B",
+      "gambling": false,
+      "rows": 63,
+      "correct": 51,
+      "acc": 0.8095238095238095
+    },
+    {
+      "split": "test_B",
+      "gambling": true,
+      "rows": 27,
+      "correct": 3,
+      "acc": 0.1111111111111111
+    }
+  ],
+  "cutoffs_val": [
+    {
+      "cutoff": 0.0,
+      "accepted": 135,
+      "row_cov": 1.0,
+      "dollar_cov": 1.0,
+      "accepted_error": 0.274074074074074,
+      "to_review": 0
+    },
+    {
+      "cutoff": 0.3,
+      "accepted": 126,
+      "row_cov": 0.9333333333333333,
+      "dollar_cov": 0.9843061418909127,
+      "accepted_error": 0.23015873015873012,
+      "to_review": 9
+    },
+    {
+      "cutoff": 0.4,
+      "accepted": 123,
+      "row_cov": 0.9111111111111111,
+      "dollar_cov": 0.972050710056407,
+      "accepted_error": 0.2195121951219512,
+      "to_review": 12
+    },
+    {
+      "cutoff": 0.5,
+      "accepted": 119,
+      "row_cov": 0.8814814814814815,
+      "dollar_cov": 0.9641317181757495,
+      "accepted_error": 0.2016806722689075,
+      "to_review": 16
+    },
+    {
+      "cutoff": 0.6,
+      "accepted": 105,
+      "row_cov": 0.7777777777777778,
+      "dollar_cov": 0.7926507003952371,
+      "accepted_error": 0.1523809523809524,
+      "to_review": 30
+    },
+    {
+      "cutoff": 0.7,
+      "accepted": 101,
+      "row_cov": 0.7481481481481481,
+      "dollar_cov": 0.7788756140188331,
+      "accepted_error": 0.12871287128712872,
+      "to_review": 34
+    },
+    {
+      "cutoff": 0.8,
+      "accepted": 91,
+      "row_cov": 0.674074074074074,
+      "dollar_cov": 0.7417395015944891,
+      "accepted_error": 0.08791208791208793,
+      "to_review": 44
+    },
+    {
+      "cutoff": 0.9,
+      "accepted": 81,
+      "row_cov": 0.6,
+      "dollar_cov": 0.7213671030823092,
+      "accepted_error": 0.04938271604938271,
+      "to_review": 54
+    }
+  ],
+  "runtime": {
+    "hardware": "arm64 / macOS-15.0.1-arm64-arm-64bit / python 3.12.8",
+    "train_rows": 679,
+    "fit_seconds": 0.544,
+    "experiments_run": 186,
+    "model_mb": 161.5,
+    "model_load_seconds": 0.148,
+    "inference_batch": 100000,
+    "inference_rows_per_sec": 81241,
+    "est_seconds_1M": 12.3,
+    "est_hours_2B": 6.8
+  }
+}

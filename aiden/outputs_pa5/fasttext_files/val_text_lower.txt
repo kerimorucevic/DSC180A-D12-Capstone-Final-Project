@@ -1,0 +1,135 @@
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__transfers zelle payment from [name] 3dl0jeoaz33q
+__label__transfers zelle payment to [name] jpm99banzagc
+__label__debt_credit_payments recurring payment authorized on 07/27 afterpay 185-52896014 ca s305208426489164 card 0675
+__label__subscriptions_entertainment recurring payment authorized on 07/09 apple.com/bill ca s585191142171293 card 9885
+__label__health_wellness point of sale - interac retail purchase 507109401404 meadows pharmas
+__label__groceries point of sale - interac retail purchase 000001001660 walmart store #
+__label__food_drink point of sale - interac retail purchase 518208387567 tim hortons #15
+__label__uncertain_unidentifiable point of sale - interac retail purchase 519209983987 [name] in
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__transfers online transfer from sav ...7253 transaction#: 24841242852
+__label__transfers online transfer from sav ...7253 transaction#: 25138503812
+__label__transfers online transfer from sav ...7253 transaction#: 25285077665
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk-101115315 from: bnf-empower ref: stnb80pladqiebs info: text-/vxr/00100000108898816rmtinf-empower cash advance iid: 20250402101115315p1bcled00000108547 recd: 22:18:59 trn: 1678472092gc
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk-101115315 from: bnf-empower ref: ei3gd7yb4zmytee info: text-/vxr/00100000174580634rmtinf-empower cash advance iid: 20250419101115315p1bcled00000130175 recd: 23:30:40 trn: 1617262109gd
+__label__transfers transfer from chime savings account
+__label__uncertain_unidentifiable withdrawal 1000597747
+__label__uncertain_unidentifiable withdrawal 1000598726
+__label__food_drink chick-fil-a #01344 317-780-7477 in 02/28
+__label__food_drink chick-fil-a
+__label__food_drink chick-fil-a
+__label__uncertain_unidentifiable date 05/30/25 028
+__label__shopping dollar general
+__label__travel lyft
+__label__travel lyft
+__label__subscriptions_entertainment prizepicks
+__label__gas shell
+__label__travel uber
+__label__travel uber
+__label__travel uber
+__label__food_drink uber eats
+__label__transfers pos debit - visa check card 4414 - zelle [name] visa direct [name] pos transaction
+__label__cash_out_atm atm withdrawal
+__label__debt_credit_payments brigit-com protection 250605 6134392c0f074fb roosevelt 3
+__label__debt_credit_payments earnin repayment 918645151 web id: 9296297000
+__label__groceries kroger
+__label__transfers pos debit - visa check card 5552 - cash app ladarriou oakland ca ladarrious d adams pos transaction
+__label__debt_credit_payments point of sale - visa debit visa debit retail purchase sezzle*premium 520408775955
+__label__transfers cash app*schoride
+__label__transfers cash app*schoride*add
+__label__gas citgo
+__label__debt_credit_payments electronic funds transfer mortgage payment mtg001301634.1 cmi
+__label__debt_credit_payments instant pmt from earnin reaha_b on 06/02 ref#20250602101115315p1bcled00000033726 earnin
+__label__uncertain_ambiguous_merchant kwik trip
+__label__transfers online transfer from alba m way2save savings xxxxxx5749 ref #ib0rzz5rv3 on 04/14/25
+__label__transfers pmnt sent 0604 cash app*mia lidd xxxxx91940 ca xxxxx5551xxxxxxxxxx2763
+__label__transfers zelle payment from [name] conf# 99b3qaxgo
+__label__transfers zelle from [name] on 07/09 ref # bacstw49m4ok
+__label__transfers cash app*[name]*a oakland ca 05/13
+__label__transfers cash app*[name]*a oakland ca 07/29
+__label__transfers pos adjustment - cash app ladarriou oakland caus cash app ladarriou oakland caus pos adjustment - cr
+__label__transfers pos adjustment - cash app ladarriou oakland caus cash app ladarriou oakland caus pos adjustment - cr
+__label__transfers dave.com p2p carlos ruvalcab web id: 1475235605
+__label__uncertain_unidentifiable island ioasis 00901298 orlando fl 05/16
+__label__professional_services purchase legalnature +18888811139 deus
+__label__debt_credit_payments mypay repayment
+__label__transfers online transfer from thompson s way2save savings xxxxxx6239 ref #ib0srkqwgv on 06/13/25
+__label__transfers online transfer from thompson s way2save savings xxxxxx6239 ref #ib0swkdpdc on 06/25/25
+__label__subscriptions_entertainment purchase prime video channels amzn.com/billwaus
+__label__subscriptions_entertainment purchase prime video channels amzn.com/billwaus
+__label__bills_utilities purchase authorized on 05/22 reliant energy tx s305142352278266 card 4886
+__label__food_drink purchase authorized on 03/03 snack shop vending scottsburg va s385062591997176 card 0861
+__label__food_drink purchase authorized on 05/14 snack shop vending scottsburg va s465134555585282 card 1455
+__label__bills_utilities recurring payment authorized on 05/14 spectrum mobile mo s385135015611504 card 4886
+__label__debt_credit_payments transfer moneylion instacash
+__label__debt_credit_payments transfer moneylion instacash
+__label__transfers pos debit - visa check card 4414 - paypal deloach ch visa direc [name] pos transaction
+__label__transfers zelle payment to renna conf# mr9v3lhdy
+__label__health_wellness purchase authorized on 05/29 a m nail bar columbia sc s305149666390102 card 0675
+__label__subscriptions_entertainment recurring payment authorized on 06/08 abcmouse.com* ca s305159407664305 card 0675
+__label__shopping amazon marketplace
+__label__fees_adjustments atm transaction fee - withdrawal
+__label__uncertain_unidentifiable purchase authorized on 07/04 [name] bars vinton la s385185730775264 card 3688
+__label__fees_adjustments branch transaction overdraft fee
+__label__bills_utilities withdrawal cable svc
+__label__transfers cash app*mia l 03/28 #xxxxx8789 pmnt rcvd cash app*mia lidd
+__label__fees_adjustments cash withdrawal fee
+__label__uncertain_unidentifiable cdsr
+__label__food_drink checkcard 0717 charlie's chicago chicago il xxxxx5151xxxxxxxxxx9891
+__label__subscriptions_entertainment chumba gold coins vis 0608 valetta mh debit card purchase *7160
+__label__debt_credit_payments purchase 0426 cleo* advance repay meetcleo.com de xxxxx3451xxxxxxxxxx7619 recurring
+__label__debt_credit_payments cleo salary advance vis 0608 oakland ca visa money transfer c *5008
+__label__shopping checkcard 0615 the closet chicago il xxxxx9751xxxxxxxxxx1947
+__label__subscriptions_entertainment creditreview.co vis 0614 833-*7303 ca debit card purchase *7168
+__label__food_drink purchase authorized on 04/23 ctlp*payrange inc portland or s305113603740370 card 0675
+__label__food_drink purchase 0622 dd *doordash culv san franciscoca xxxxx0951xxxxxxxxxx2059
+__label__transfers deposit free interac e-transfer
+__label__income_deposits deposit - 36 treas 310 36 treas 310 deposit
+__label__debt_credit_payments earnin svngs dpst xxxxx5421 maryfer alba
+__label__debt_credit_payments flex finance getflex.com ny 03/01
+__label__uncertain_ambiguous_merchant pos purchase fpos 22187 macs conv
+__label__transfers withdrawal free interac e-transfer
+__label__debt_credit_payments grant cash adv 04/17 #xxxxx1186 pmnt rcvd grant cash advanc
+__label__uncertain_unidentifiable huadachangcompan thanks for 250603 thanks for your patronage
+__label__fees_adjustments intl purch & adv fee vis 0622 mh
+__label__food_drink jack in the box
+__label__shopping jcpenney
+__label__uncertain_unidentifiable purchase authorized on 05/13 5v9aw0cgz the mobile al s305133862968857 card 0675
+__label__debt_credit_payments moneylion instacash new york ny 645571 04/11
+__label__income_deposits newark beth isra payroll ppd id: 1203208050
+__label__food_drink olympian burgers los angeles ca 07/14
+__label__subscriptions_entertainment pos purchase opos audible ca amzn.
+__label__subscriptions_entertainment pos purchase opos paypal *google textm40293
+__label__debt_credit_payments plm*7824 payment creditninja pmt ach debit
+__label__debt_credit_payments progressivelease pmts 250425 xxxxx4627 [name]
+__label__food_drink raising cane's chicken fingers
+__label__groceries ralphs
+__label__food_drink purchase return authorized on 04/21 chapman vending - san antonio tx s465111634673476 card 3688
+__label__shopping purchase return authorized on 06/03 shipmentfree.com 9 ca s465154579541229 card 1455
+__label__uncertain_unidentifiable purchase authorized on 04/10 rfsm llc west orange tx p385100848075237 card 3688
+__label__gas purchase shell/shell
+__label__uncertain_ambiguous_merchant space market new york ny 06/28
+__label__uncertain_unidentifiable purchase authorized on 07/10 starfish las vegas nv s465192154278115 card 0655
+__label__subscriptions_entertainment stubhub inc ca 05/22
+__label__shopping target
+__label__food_drink purchase authorized on 06/20 tejas liquor 10 west orange tx p385172004786558 card 3688
+__label__debt_credit_payments ach transaction - earnin repayment 0012114039 ach debit
+__label__debt_credit_payments true finance true fin maryfer alba
+__label__transfers type: inst xfer id: paypalsi77 co: paypal name: [name] ach ecc web
+__label__uncertain_unidentifiable purchase authorized on 04/29 ultm044-south bost south boston va s465119769705711 card 1455
+__label__uncertain_unidentifiable [name] vis 0521 704-*5293 wy debit card purchase *7142
+__label__fees_adjustments pos debit - visa check card 4414 - cleo express fee meetcleo co [name] pos transaction
+__label__bills_utilities pos debit - visa check card 4414 - georgia power comp 234414 [name] pos transaction
+__label__debt_credit_payments pos debit - visa check card 5552 - grid payment 3s5fd getgrid ap ladarrious d adams pos transaction
+__label__transfers zelle payment to alex csr shop 23978705429
+__label__transfers zelle payment from [name] bacqoh2qmvvd
+__label__transfers zelle payment from [name] conf# fhokppkvs
+__label__transfers zelle payment from [name] conf# hptfnpdkx
+__label__transfers zelle to golden on 07/23 ref #rp0z3cszv2
+__label__transfers zelle payment to jerry memos jpm99b04yfzv
+__label__transfers zelle payment to monica astar jpm99b5cm4yj
+__label__transfers pos adjustment - zelle [name] visa direct azus zelle [name] visa direct azus pos adjustment - cr

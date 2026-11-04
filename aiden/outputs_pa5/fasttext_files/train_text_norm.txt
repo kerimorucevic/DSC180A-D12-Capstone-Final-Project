@@ -1,0 +1,679 @@
+__label__transfers zelle payment to [name] <id>
+__label__transfers cash app*[name]*san franciscocaus
+__label__subscriptions_entertainment google *tiktok mountain viewca card# * <num> pos deb <num> <date> <id>
+__label__transfers online transfer to brewer r everyday checking <acct> ref # <id> on <date>
+__label__transfers internet banking e-transfer <id> [name]
+__label__transfers cash app*[name]*ad 800- <num> ca
+__label__subscriptions_entertainment google
+__label__groceries harris te 750 <date> # <acct> mobile purchase harris te 750 w w apex nc
+__label__gas withdrawal pos / amoco# <id> oakdale oakdale pa
+__label__finance_investments money transfer authorized on <date> coinbase https://www.f ca <id> card <num>
+__label__transfers pos return cash app*mercedes / partesan franciscocaus card # <num>
+__label__shopping family dollar
+__label__food_drink 365 market 888 432
+__label__income_deposits edeposit in branch <date> 01:38:16 pm <num> business center dr pearland tx <num>
+__label__food_drink starbucks
+__label__shopping pos adjustment - aliexpress 114- <id> aliexpress 114- <id> pos adjustment - cr
+__label__food_drink debit card return at mcdonald's f <num> , country club, il on <num> to card#: <acct>
+__label__income_deposits deposit
+__label__shopping stevenmadde inst xfer paypal ach web
+__label__transfers transfer from checking account
+__label__automotive purchase authorized on <date> max laser wash llc turbeville va <id> card <num>
+__label__travel uber trip
+__label__subscriptions_entertainment business to business ach rocket money premium st- <id> rocket money inc
+__label__cash_out_atm atm withdrawal <num> 06/ <num> e gu
+__label__debt_credit_payments moneylion des:moneylion id: <id> indn:[name] co id: <acct> web
+__label__food_drink 365 market 888 432- <num> troy mi <date>
+__label__food_drink aramark
+__label__transfers roundup *chipotle online
+__label__groceries walmart.com 800-925- <num> ar
+__label__finance_investments crypto.com
+__label__groceries debit purchase <id> <num> apple valleyca <date> card <num>
+__label__debt_credit_payments zip* quadpay anywhe 188- <id> ny
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__transfers transfer from chime savings account
+__label__transfers venmo
+__label__subscriptions_entertainment visa debit purchase olg <id> north york ca posted 07 may <num>
+__label__cash_out_atm atm withdrawal authorized on <date> <num> se 111th st belleview fl <num> atm id <num> r card <num>
+__label__groceries safeway
+__label__food_drink purchase authorized on <date> tst*[name] dallas tx <id> card <num>
+__label__transfers transfer from varo savings account to varo bank account
+__label__subscriptions_entertainment arlo technologies inc 408-638- <num> ca
+__label__food_drink seaworld-food svc orlando fl <date>
+__label__uncertain_ambiguous_merchant pos purchase 7eleven <num> d <num> 7eleven <num>
+__label__debt_credit_payments money transfer authorized on <date> from brigit ny <id> card <num>
+__label__shopping tjmaxx # <num> carle place ny <date>
+__label__food_drink mcdonald's
+__label__bills_utilities t-mobile
+__label__food_drink purchase authorized on <date> reds discount liqu orange tx <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> audiobooks.com <id> md <id> card <num>
+__label__transfers jj545 tfr-to <num>
+__label__subscriptions_entertainment purchase microsoft*microsoft <num> - <num>
+__label__shopping clearance outlet #115 san antonio tx
+__label__fees_adjustments atm fee - withdrawal p <num> nashville ncus atm fee - withdrawal
+__label__food_drink pos purchase opos dd/doordashstarbucksvanco
+__label__food_drink checkcard <num> chipotle <num> boston ma <acct>
+__label__groceries wal-mart super center mesquite tx
+__label__uncertain_ambiguous_merchant parkers
+__label__food_drink ansonia discount wine &
+__label__food_drink burger king
+__label__transfers transfer from chime savings account
+__label__debt_credit_payments dave inc los angeles caus
+__label__food_drink market@work
+__label__subscriptions_entertainment checkcard <num> apple.com/bill ca <acct> recurring
+__label__transfers transfer from wallet
+__label__uncertain_unidentifiable lfrc
+__label__gas # pemex <num> washington blvd montebello ca mcc: <num>
+__label__groceries debit purchase wal-mart super cbonney lake wa <date> card <num>
+__label__transfers transfer to shares trf to other
+__label__fees_adjustments intl txn fee
+__label__transfers keep the change transfer to acct <num> for <date>
+__label__food_drink mcdonald's
+__label__shopping dollar tree
+__label__transfers pos adjustment - zelle [name] visa direct azus zelle [name] visa direct azus pos adjustment - cr
+__label__income_deposits newark beth isra payroll ppd id: <id>
+__label__subscriptions_entertainment winter garden bowl
+__label__transfers apple cash sent money <id>
+__label__shopping etsy.com - blkqueenmagi 718- <num> ny
+__label__uncertain_ambiguous_merchant <num> get go cafe & mark
+__label__transfers withdrawal free interac e-transfer
+__label__transfers internet banking e-transfer <id> [name]
+__label__debt_credit_payments cleo ai
+__label__uncertain_ambiguous_merchant racetrac
+__label__transfers from savings - <num>
+__label__food_drink purchase authorized on <date> 365 market 888 432 troy mi <id> card <num>
+__label__transfers zelle payment to [name] <id>
+__label__uncertain_ambiguous_merchant pos db enmarket # <num> <date> 420
+__label__shopping amazon
+__label__uncertain_ambiguous_merchant purchase authorized on <date> qt 806 outside marietta ga <id> card <num>
+__label__fees_adjustments reverse check <acct>
+__label__cash_out_atm atm withdrawal - fcli hudson bridge atm hudson bridge atm <num> atm withdrawal
+__label__gas purchase shell service station lorton vaus
+__label__uncertain_ambiguous_merchant wawa
+__label__food_drink purchase authorized on <date> tst* lick ice crea columbia sc <id> card <num>
+__label__debt_credit_payments withdrawal ach credit one bank type: payment id: <id> data: credit one bank,n.a. co: credit one bank name: [name] ach number: <id>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__food_drink checkcard <num> boston college dining i chestnut hillma <acct>
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__uncertain_ambiguous_merchant 7-eleven
+__label__transfers zelle payment to [name] <id>
+__label__transfers zelle payment from [name] <id>
+__label__transfers zelle payment from [name] <id>
+__label__transfers zelle payment from [name] <id>
+__label__debt_credit_payments recurring payment authorized on <date> afterpay 044- <num> ca <id> card <num>
+__label__debt_credit_payments recurring payment authorized on <date> afterpay 185- <id> ca <id> card <num>
+__label__debt_credit_payments afterpay 185- <id> ca
+__label__subscriptions_entertainment recurring payment authorized on <date> apple.com/bill ca <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> apple.com/bill 866-712- <num> ca <id> card <num>
+__label__subscriptions_entertainment recurring payment authorized on <date> apple.com/bill ca <id> card <num>
+__label__groceries point of sale - interac retail purchase <id> nesters market
+__label__food_drink point of sale - interac retail purchase <id> nslc # <num>
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__food_drink mcdonald's
+__label__transfers online transfer to sav ... <num> transaction#: <id>
+__label__transfers online transfer from sav ... <num> transaction#: <id>
+__label__transfers paypal type: inst xfer id: <id> co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: <id> co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: <id> co: paypal name: [name] ach ecc web
+__label__transfers paypal type: inst xfer id: <id> co: paypal name: [name] ach ecc web
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk- <id> from: bnf-empower ref: <id> info: text-/vxr/ <id> -empower cash advance iid: <id> recd: 11:26:00 trn: <id>
+__label__subscriptions_entertainment real time payment credit recd from aba/contr bnk- <id> from: bnf-mvb bank inc ref: <id> -ct info: text-/vxr/ <id> -fd sptsbk casino iid: <id> recd: 12:24:36 trn: <id>
+__label__debt_credit_payments real time payment credit recd from aba/contr bnk- <id> from: bnf-empower ref: 8_hafcvetu9asq3 info: text-/vxr/ <id> -empower cash advance iid: <id> recd: 21:54:55 trn: <id>
+__label__transfers transfer from chime savings account
+__label__transfers transfer from chime savings account
+__label__transfers transfer to chime savings account
+__label__transfers transfer to chime savings account
+__label__uncertain_unidentifiable pos db [name] <num> <date> 437
+__label__uncertain_unidentifiable [name]
+__label__food_drink chick-fil-a # <num> 317-776- <num> in <date>
+__label__food_drink chick-fil-a # <num> vis <num> leesburg va debit card purchase <acct>
+__label__uncertain_unidentifiable date <date> 132
+__label__uncertain_unidentifiable date <date> 705
+__label__debt_credit_payments pos adjustment - dave inc los angeles caus dave inc los angeles caus pos adjustment - cr
+__label__debt_credit_payments dave inc los angeles ca <num> <date>
+__label__debt_credit_payments dave inc los angeles ca <date>
+__label__shopping dollar general
+__label__shopping dollar general
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__uncertain_ambiguous_merchant internet banking fulfill request <id> payper inc.
+__label__travel lyft
+__label__travel lyft
+__label__travel lyft
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__subscriptions_entertainment prizepicks
+__label__gas shell
+__label__gas shell
+__label__gas shell
+__label__transfers transfer from credit builder
+__label__transfers transfer from credit builder
+__label__transfers transfer to credit builder
+__label__travel uber
+__label__travel uber
+__label__food_drink uber eats
+__label__food_drink uber eats
+__label__food_drink uber eats
+__label__food_drink uber eats help.uber.com ca <date>
+__label__food_drink uber eats help.uber.com ca <date>
+__label__food_drink uber eats help.uber.com ca <date>
+__label__food_drink uber eats help.uber.com ca <date>
+__label__food_drink uber eats help.uber.com ca <date>
+__label__transfers pos debit - visa check card <num> - zelle david withe visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card <num> - zelle [name] visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card <num> - zelle [name] visa direct kokhita horton pos transaction
+__label__transfers pos debit - visa check card <num> - zelle calvin couc visa direct [name] pos transaction
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase or technologies <id> 5.00 cad @ 1. <num>
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase baytree <id> 7.00 cad @ 1. <num>
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase flexepayments.c <id> 5.00 cad @ 1. <num>
+__label__subscriptions_entertainment point of sale - visa debit intl visa deb retail purchase powerplay <id> 15.00 cad @ 1. <num>
+__label__uncertain_ambiguous_merchant point of sale - visa debit intl visa deb retail purchase c-rewards <id> 20.00 cad @ 1. <num>
+__label__education debit purchase -visa pierce college 253-964- <num> wa <date> card <num>
+__label__education debit purchase -visa pierce college 253-964- <num> wa <date> card <num>
+__label__education debit purchase -visa pierce college lakewood wa <date> card <num>
+__label__education debit purchase -visa pierce college 253-964- <num> wa <date> card <num>
+__label__education debit purchase -visa pierce college lakewood wa <date> card <num>
+__label__transfers money transfer authorized on <date> apple cash sent mo <id> ca <id> card <num>
+__label__transfers money transfer authorized on <date> apple cash sent mo <id> ca <id> card <num>
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal
+__label__cash_out_atm atm withdrawal authorized on <date> <num> halifax rd south boston va <num> atm id <num> q card <num>
+__label__cash_out_atm atm withdrawal authorized on <date> <num> w sand lake rd orlando fl <num> atm id <num> o card <num>
+__label__debt_credit_payments brigit-com protection <num> <id> rozilyn weems
+__label__debt_credit_payments brigit-com protection <num> <id> [name]
+__label__debt_credit_payments brigit-com protection <num> <id> [name]
+__label__subscriptions_entertainment <id> .com/bill 866-712- <num>
+__label__subscriptions_entertainment <id> .com/bill 866-712- <num>
+__label__subscriptions_entertainment <id> .com/bill 866-712- <num>
+__label__subscriptions_entertainment <id> .com/bill 866-712- <num>
+__label__debt_credit_payments earnin repayment <id> web id: <id>
+__label__debt_credit_payments earnin repayment <id>
+__label__groceries kroger
+__label__groceries pos db kroger #69 <num> <date> 318
+__label__groceries kroger
+__label__debt_credit_payments mypay advance
+__label__debt_credit_payments mypay advance
+__label__subscriptions_entertainment recurring purchase at patreon* membershi, internet, ca on <num> from card#: <acct>
+__label__debt_credit_payments recurring purchase at afterpay, san francisco, ca on <num> from card#: <acct>
+__label__debt_credit_payments recurring purchase at zip* app pay later, new york, ny on <num> from card#: <acct>
+__label__debt_credit_payments recurring purchase at deferit* at&t 4of4, new york, ny on <num> from card#: <acct>
+__label__transfers from savings - <num>
+__label__transfers from savings - <num>
+__label__education purchase authorized on <date> valencia college 800-609- <num> fl <id> card <num>
+__label__education purchase authorized on <date> valencia college 800- <num> fl <id> card <num>
+__label__education purchase authorized on <date> valencia college 800-609- <num> fl <id> card <num>
+__label__education purchase authorized on <date> valencia college 800-609- <num> fl <id> card <num>
+__label__shopping debit purchase -visa amzn mktp us*hy8amzn.com/bilwa <date> card <num>
+__label__shopping debit purchase -visa amzn mktp us*t94amzn.com/bilwa <date> card <num>
+__label__shopping debit purchase -visa amzn mktp us*rn4amzn.com/bilwa <date> card <num>
+__label__shopping debit purchase -visa amzn mktp us*aq0amzn.com/bilwa <date> card <num>
+__label__transfers pos debit - visa check card <num> - cash app ladarriou <num> ladarrious d adams pos transaction
+__label__transfers pos debit - visa check card <num> - cash app sharano <id> ladarrious d adams pos transaction
+__label__bills_utilities point of sale - visa debit visa debit retail purchase google *magicja <id>
+__label__uncertain_ambiguous_merchant point of sale - visa debit visa debit retail purchase ilixium c rewar <id>
+__label__shopping point of sale - visa debit visa debit retail purchase amzn mktp ca <id>
+__label__groceries walmart
+__label__groceries walmart
+__label__groceries walmart
+__label__groceries walmart
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__transfers zel to als software consulting l
+__label__income_deposits atm cash deposit <date> 240 glen head rd
+__label__income_deposits atm cash deposit on <date> 214 smith st perth amboy nj <num> atm id <num> e card <num>
+__label__income_deposits atm cash deposit on <date> <num> n 16th st orange tx <num> atm id <num> l card <num>
+__label__subscriptions_entertainment <id> + 888-274- <num> ca**
+__label__transfers money transfer authorized on <date> from [name] ca <id> card <num>
+__label__transfers money transfer authorized on <date> from [name] ca <id> card <num>
+__label__food_drink canteen vending altamonte spr fl <date>
+__label__food_drink canteen vending altamonte spr fl <date>
+__label__food_drink canteen vending altamonte spr fl <date>
+__label__transfers cash app*schoride*add
+__label__gas chevron
+__label__gas chevron
+__label__gas chevron
+__label__gas citgo
+__label__gas citgo
+__label__finance_investments money transfer authorized on <date> coinbase https://www.f ca <id> card <num>
+__label__finance_investments money transfer authorized on <date> coinbase https://www.f ca <id> card <num>
+__label__finance_investments money transfer authorized on <date> coinbase https://www.f ca <id> card <num>
+__label__finance_investments purchase authorized on <date> coinbase, inc. <id> ca <id> card <num>
+__label__finance_investments purchase authorized on <date> coinbase, inc. <id> ca <id> card <num>
+__label__finance_investments purchase authorized on <date> coinbase, inc. <id> ca <id> card <num>
+__label__income_deposits electronic funds transfer deposit province of b.c
+__label__transfers electronic funds transfer preauthorized debit afarberpart a. farber
+__label__shopping family dollar
+__label__shopping family dollar
+__label__groceries food lion
+__label__groceries food lion
+__label__groceries food lion
+__label__debt_credit_payments instant pmt from earnin rfegb_b on <date> ref# <id> earnin
+__label__groceries key foods <num> unionpo bronx ny <date>
+__label__groceries key foods <num> unionpo bronx ny <date>
+__label__groceries key foods <num> unionpo bronx ny <date>
+__label__debt_credit_payments klover app boost chicago il <num> <date>
+__label__debt_credit_payments purchase authorized on <date> klover app boost chicago il <id> card <num>
+__label__debt_credit_payments purchase authorized on <date> klover app boost chicago il <id> card <num>
+__label__uncertain_ambiguous_merchant kwik trip
+__label__uncertain_ambiguous_merchant kwik trip
+__label__groceries purchase authorized on <date> los primos grocery perth amboy nj <id> card <num>
+__label__groceries purchase authorized on <date> los primos grocery perth amboy nj <id> card <num>
+__label__groceries purchase authorized on <date> los primos grocery perth amboy nj <id> card <num>
+__label__food_drink purchase authorized on <date> 365 market 888 432 troy mi <id> card <num>
+__label__food_drink purchase authorized on <date> 365 market 888 432 troy mi <id> card <num>
+__label__food_drink purchase authorized on <date> 365 market 888 432 troy mi <id> card <num>
+__label__transfers mobile banking transfer deposit <num>
+__label__transfers mobile banking transfer deposit <num>
+__label__transfers mobile banking transfer deposit <num>
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__fees_adjustments non-wells fargo atm transaction fee
+__label__transfers online banking transfer from chk <num> confirmation# <acct>
+__label__transfers online banking transfer from sav <num> confirmation# <acct>
+__label__transfers online transfer from alba m <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer from alba m <id> savings <acct> ref # <id> on <date>
+__label__travel pos purchase opos paypal *uber <num>
+__label__travel pos purchase opos paypal *uber <num>
+__label__travel pos purchase opos paypal *uber <num>
+__label__transfers money transfer authorized on <date> from pilcher dylan fl <id> card <num>
+__label__transfers money transfer authorized on <date> from pilcher dylan fl <id> card <num>
+__label__transfers money transfer authorized on <date> from pilcher dylan fl <id> card <num>
+__label__transfers pmnt sent <num> cash app*manishio <acct> ca <acct>
+__label__transfers pmnt sent <num> cash app*mia lidd <acct> ca <acct>
+__label__food_drink purchase authorized on <date> reds discount liqu orange tx <id> card <num>
+__label__food_drink purchase authorized on <date> reds discount liqu orange tx <id> card <num>
+__label__finance_investments robinhood
+__label__transfers round up to savings
+__label__transfers round up to savings
+__label__transfers round up to savings
+__label__transfers transfer from varo bank account to varo savings account
+__label__transfers transfer from varo bank account to varo savings account
+__label__transfers transfer from varo bank account to varo savings account
+__label__travel uber trip help.uber.com ca
+__label__travel uber trip help.uber.com ca
+__label__travel uber trip help.uber.com ca <date>
+__label__subscriptions_entertainment purchase authorized on <date> va lottery <num> 804-420- <num> va <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> va lottery <num> 804-420- <num> va <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> va lottery <num> 804-420- <num> va <id> card <num>
+__label__transfers zelle payment from [name] conf# <id>
+__label__transfers zelle payment from [name] conf# <id>
+__label__transfers zelle from [name] on <date> ref # <id>
+__label__transfers zelle to [name] on <date> ref # <id>
+__label__shopping amazon
+__label__subscriptions_entertainment amazon prime
+__label__shopping amzn mktp us*th93z28 amzn.com/bill wa <date>
+__label__shopping purchase <num> amzn mktp us* <id> amzn.com/billwa <acct>
+__label__transfers money transfer authorized on <date> apple cash balance 877-233- <num> ca <id> card <num>
+__label__transfers apple cash balance ad ca <date>
+__label__food_drink purchase authorized on <date> b vending malvern pa <id> card <num>
+__label__food_drink purchase authorized on <date> b vending malvern pa <id> card <num>
+__label__gas purchase authorized on <date> bp# <num> [name] <id> card <num>
+__label__gas bp# <id>
+__label__debt_credit_payments purchase authorized on <date> brigit new york ny <id> card <num>
+__label__debt_credit_payments brigit new york ny <num> <date>
+__label__debt_credit_payments money transfer authorized on <date> from brigit ny <id> card <num>
+__label__debt_credit_payments money transfer authorized on <date> from brigit ny <id> card <num>
+__label__debt_credit_payments capital one mobile pmt <num> <id> rozilyn weems
+__label__debt_credit_payments capital one mobile pmt <id> web id: <id>
+__label__transfers cash app*[name] <id> ca <date>
+__label__transfers money transfer authorized on <date> cash app*[name] <id> ca <id> card <num>
+__label__transfers point of sale withdrawal cash / app*mercedes <id> - <num> caus card # <num>
+__label__transfers point of sale withdrawal cash / app*mercedes <id> - <num> caus card # <num>
+__label__health_wellness recurring payment authorized on <date> central florida ym accounting@cf fl <id> card <num>
+__label__health_wellness recurring payment authorized on <date> central florida ym accounting@cf fl <id> card <num>
+__label__subscriptions_entertainment chaturbill 888-384- <num> ca <date>
+__label__subscriptions_entertainment chaturbill 888-384- <num> ca <date>
+__label__transfers dave.com p2p <acct> oyce
+__label__transfers deposit internet transfer from: / <acct>
+__label__transfers deposit internet transfer from: / <acct>
+__label__shopping purchase authorized on <date> dollartree falls church va <id> card <num>
+__label__shopping purchase authorized on <date> dollartree falls church va <id> card <num>
+__label__debt_credit_payments earnin payment ppd id: <id>
+__label__debt_credit_payments earnin paymentret <id> web id: <id>
+__label__debt_credit_payments earnin paymentret <id> web id: <id>
+__label__debt_credit_payments earnin transfer palo alto ca <num> <date>
+__label__debt_credit_payments earnin transfer palo alto ca <num> <date>
+__label__debt_credit_payments empower <id> ppd id: <id>
+__label__debt_credit_payments empower
+__label__debt_credit_payments instant pmt from moneylion instacash on <date> ref# <id>
+__label__debt_credit_payments instant pmt from moneylion instacash on <date> ref# <id>
+__label__transfers internet banking e-transfer <id> [name]
+__label__transfers internet banking e-transfer <id> [name]
+__label__income_deposits internet banking internet deposit <id>
+__label__transfers internet banking internet transfer <id>
+__label__professional_services intuit turbotax <id> <num> <id> intuit turbotax (888) 808- <num> ref: <id>
+__label__professional_services intuit turbotax <id> <num> <id> intuit turbotax (888) 808- <num> ref: <id>
+__label__uncertain_unidentifiable island ioasis <id> orlando fl <date>
+__label__professional_services checkcard <num> law offices of wi <acct> nc <acct>
+__label__professional_services checkcard <num> law offices of wi <acct> nc <acct>
+__label__professional_services purchase legalnature + <id> deus
+__label__subscriptions_entertainment of london <date>
+__label__subscriptions_entertainment of london <date>
+__label__fees_adjustments non-chase atm fee-with
+__label__cash_out_atm non-wf atm withdrawal authorized on <date> <num> western ave. orange tx <id> atm id p <num> card <num>
+__label__cash_out_atm non-wf atm withdrawal authorized on <date> <num> hwy 109 s vinton la <id> atm id a <num> card <num>
+__label__transfers online transfer to <acct>
+__label__transfers online transfer from <acct>
+__label__transfers online transfer from hernandez p <id> savings <acct> ref # <id> on <date>
+__label__transfers online transfer from hernandez p <id> savings <acct> ref # <id> on <date>
+__label__groceries pos purchase opos ic* instacart + <num>
+__label__groceries pos purchase opos ic* instacart + <num>
+__label__groceries purchase authorized on <date> publix # <num> orlando fl <id> card <num>
+__label__groceries purchase authorized on <date> publix # <num> orlando fl <id> card <num>
+__label__shopping recurring debit purchase thefarmersdog.cothefarmersdony <date> card <num>
+__label__bills_utilities recurring debit purchase spectrum 855-707- <num> mo <date> card <num>
+__label__bills_utilities purchase authorized on <date> reliant energy tx <id> card <num>
+__label__transfers round up - checking
+__label__transfers round up - checking
+__label__transfers save as you go transfer debit to <acct>
+__label__transfers save as you go transfer debit to <acct>
+__label__transfers save your change
+__label__transfers save your change
+__label__subscriptions_entertainment spotify
+__label__uncertain_unidentifiable purchase authorized on <date> store south boston va <id> card <num>
+__label__uncertain_unidentifiable purchase authorized on <date> store south boston va <id> card <num>
+__label__gas sunoco
+__label__gas sunoco
+__label__shopping purchase authorized on <date> target <num> falls church va <id> card <num>
+__label__shopping purchase authorized on <date> target <num> falls church va <id> card <num>
+__label__transfers transfer from varo savings account to varo bank account
+__label__transfers transfer from varo savings account to varo bank account
+__label__food_drink uber *eats san francisco ca <num> <date>
+__label__food_drink withdrawal pos / uber *eats san francisco ca
+__label__subscriptions_entertainment underdog
+__label__subscriptions_entertainment underdog
+__label__subscriptions_entertainment purchase authorized on <date> valottery 734-375- <num> va <id> card <num>
+__label__subscriptions_entertainment purchase authorized on <date> valottery 734-375- <num> va <id> card <num>
+__label__food_drink purchase authorized on <date> 365 vend llc 3 troy mi <id> card <num>
+__label__food_drink purchase authorized on <date> 365 vend llc 3 troy mi <id> card <num>
+__label__shopping debit purchase -visa amazon.com* <id> wa <date> card <num>
+__label__shopping debit purchase -visa amazon.com* <id> wa <date> card <num>
+__label__uncertain_unidentifiable debit purchase -visa 6 bucks sumner wa <date> card <num>
+__label__uncertain_unidentifiable debit purchase -visa 6 bucks sumner wa <date> card <num>
+__label__gas pos debit - visa check card <num> - bp <id> ri jonesboro [name] pos transaction
+__label__gas pos debit - visa check card <num> - bp <id> ri nashville ladarrious d adams pos transaction
+__label__food_drink debit purchase -visa cpa clb conc seattle wa <date> card <num>
+__label__food_drink debit purchase -visa cpa clb conc seattle wa <date> card <num>
+__label__transfers visa money transfer - perren shontal
+__label__transfers visa money transfer - perren shontal
+__label__fees_adjustments abm network fee
+__label__travel mobile purchase <num> ac hotel raleigh raleigh nc <acct>
+__label__travel ace parking
+__label__health_wellness purchase authorized on <date> advanced pharmacy freehold nj <id> card <num>
+__label__debt_credit_payments affirm inc affirm pay <num> web id: <id>
+__label__debt_credit_payments affirm * pay <id> ca <date>
+__label__debt_credit_payments recurring payment authorized on <date> affirm * pay sohbr ca <id> card <num>
+__label__bills_utilities agi*tmo service fee 866-866- <num> pa <date>
+__label__travel purchase authorized on <date> airbnb <id> airbnb.com ca <id> card <num>
+__label__travel purchase <num> airbnb * <id> <acct> ca <acct>
+__label__transfers albert savings edi pymnts <acct> [name]
+__label__bills_utilities allstate
+__label__gas am gas inc
+__label__shopping ansonia exotic shop llc
+__label__food_drink purchase authorized on <date> anthony's restaura falls church va <id> card <num>
+__label__automotive debit card purchase at advance auto parts, dolton, il on <num> from card#: <acct>
+__label__income_deposits atm deposit - coop affinity f c u ce deposit
+__label__fees_adjustments atm fee atm inq the gastri x <num> whittier blvdus whittier ca mcc: <num>
+__label__fees_adjustments atm fee <id> s [name] lake waus1
+__label__fees_adjustments atm fee <id> state rt 4bonney lake waus1
+__label__fees_adjustments atm rebate (gt26)atm rebate
+__label__bills_utilities att* bill payment 800-331- <num> tx <date>
+__label__debt_credit_payments web authorized pmt brigit-com
+__label__bills_utilities web authorized pmt comcast
+__label__income_deposits automated banking machine atm deposit summerland 1b99
+__label__automotive autozone <num> austin tx
+__label__automotive autozone <id> nacogsan antonio tx
+__label__automotive purchase authorized on <date> autozone <num> <num> sw ar gainesville fl <id> card <num>
+__label__debt_credit_payments avant llc 800-71 avant.com <num> <id> rozilyn weems
+__label__automotive purchase authorized on <date> barlow's tire south boston va <id> card <num>
+__label__groceries bjs wholesale #0 137 college point <id> <date>
+__label__bills_utilities boost mobile
+__label__education boston college des:bc epay id: <acct> indn:ziang rao co id: <acct> tel
+__label__gas bp# <id> p
+__label__fees_adjustments branch transaction memo - fees
+__label__fees_adjustments branch transaction monthly fixed overdraft fee
+__label__fees_adjustments branch transaction over limit fee
+__label__debt_credit_payments brigit-com membership <num> <id> rozilyn weems
+__label__subscriptions_entertainment <id> for britb 816- <num> d
+__label__shopping purchase authorized on <date> burlington stores falls church va <id> card <num>
+__label__uncertain_unidentifiable c676 ocoee fl op
+__label__automotive purchase authorized on <date> ca dmv fee 678- <num> tn <id> card <num>
+__label__income_deposits canadian child benefit canada
+__label__transfers cash app*agustina mart vis <num> 800-* <num> ca debit card purchase * <num>
+__label__transfers cash app*bas cash.app nj <date>
+__label__transfers money transfer authorized on <date> cash app*denise j ca <id> card <num>
+__label__transfers money transfer authorized on <date> cash app*kayleigh ca <id> card <num>
+__label__transfers cash app*mykal <id> ca
+__label__transfers cash app*[name] vis <num> 800-* <num> ca debit card purchase * <num>
+__label__food_drink purchase authorized on <date> casual pint of fal falls church va <id> card <num>
+__label__income_deposits ccmsi
+__label__income_deposits check deposit # <id>
+__label__food_drink purchase authorized on <date> the chicken place, falls church va <id> card <num>
+__label__food_drink church's chicken 54qps bayamon
+__label__food_drink churchs chicken <num> balch springs tx
+__label__debt_credit_payments cleo* advance+express meetcleo.com de <date>
+__label__debt_credit_payments recurring payment authorized on <date> cleo* advance repa httpswww.meet de <id> card <num>
+__label__fees_adjustments recurring payment authorized on <date> cleo* express fee httpswww.meet de <id> card <num>
+__label__debt_credit_payments cleo memphis tn <date>
+__label__bills_utilities comcast
+__label__food_drink correction opos dd/doordashrealcanadvanco
+__label__groceries correction opos ic* instacart + <num>
+__label__travel correction opos paypal *uber <num>
+__label__automotive crew carwash - greenwoo greenwood in <date>
+__label__uncertain_unidentifiable purchase <num> cruz falls church va <id>
+__label__health_wellness purchase authorized on <date> cvs/pharm <num> -- <num> belleview <id> card <num>
+__label__health_wellness cvs/pharm <num> --120 e san antonio tx
+__label__health_wellness pos adjustment - cvs pharm <num> --581 f jonesboro us cvs pharm <num> --581 f jonesboro us pos adjustment - cr
+__label__health_wellness cvs/pharm <num> -- <num> indianapolis in <date>
+__label__health_wellness purchase authorized on <date> cvs/pharmacy #03 <num> --5 belleview fl <id> card <num>
+__label__health_wellness cvs/pharmacy #04 <num> indianapolis <id> <date>
+__label__health_wellness cvs/pharmacy # <id> -san antonio tx
+__label__health_wellness withdrawal pos / cvs/pharmacy # <num> <num> --70 west steuben
+__label__debt_credit_payments payment dave inc
+__label__food_drink dd *doordash dollargen
+__label__food_drink dd *doordash kfc ca <date>
+__label__uncertain_unidentifiable purchase authorized on <date> dealer # <num> south boston va <id> card <num>
+__label__debt_credit_payments withdrawal debit card / withdrawal dave inc <num> south cochran [name] angel
+__label__debt_credit_payments withdrawal debit card / withdrawal floatme fund i llc db 110 e houston st- sa
+__label__fees_adjustments deposit fee / deposit courtesy pay ref <id> | 35.00
+__label__transfers deposit home banking zelle / deposit dustin longstret
+__label__uncertain_ambiguous_merchant dhale market
+__label__gifts_donations purchase authorized on <date> donation kimberl httpsdtcare.o pa <id> card <num>
+__label__food_drink <num> dd doordash ar 855-973- <num>
+__label__food_drink <num> dd doordash ta 855-973- <num>
+__label__travel purchase authorized on <date> e-z*passny tollbym 800-333- <num> ny <id> card <num>
+__label__debt_credit_payments money transfer authorized on <date> from earnin c <num> _1 ca <id> card <num>
+__label__debt_credit_payments earnin repayment <acct> maryfer alba
+__label__automotive purchase authorized on <date> el car wash drp 305-603- <num> fl <id> card <num>
+__label__food_drink purchase authorized on <date> el meson restauran woodbridge nj <id> card <num>
+__label__debt_credit_payments electronic deposit advance / financia - autopay
+__label__debt_credit_payments electronic withdrawal / brigit-com - membership
+__label__uncertain_unidentifiable electronic withdrawal evergreen servic
+__label__uncertain_unidentifiable electronic withdrawal gthw app limited
+__label__uncertain_ambiguous_merchant purchase authorized on <date> 7-eleven maywood ca <id> card <num>
+__label__uncertain_ambiguous_merchant purchase authorized on <date> 7-eleven orlando fl <id> card <num>
+__label__debt_credit_payments empower <id> <num> empower advance noemytamayo
+__label__uncertain_ambiguous_merchant pos db enmarket # <num> <date> 420
+__label__bills_utilities excellent insurance <id> - <num> tx
+__label__uncertain_unidentifiable purchase authorized on <date> falls church liber falls church va <id> card <num>
+__label__uncertain_unidentifiable purchase authorized on <date> <num> [name] falls church va <id> card <num>
+__label__subscriptions_entertainment fd sptsbk casino viatrustly web id: <id>
+__label__fees_adjustments fee returned item
+__label__fees_adjustments fee / withdrawal non-network atm <num> noblestown rd pittsburgh pa pj <num>
+__label__shopping five belo <num> old cou westbury ny <date>
+__label__debt_credit_payments purchase authorized on <date> floatme corp san antonio tx <id> card <num>
+__label__debt_credit_payments purchase authorized on <date> floatme san antonio tx <id> card <num>
+__label__food_drink fouta halal food 2 the bronx ny <date>
+__label__travel pos purchase fpos parking lot 2 calga
+__label__subscriptions_entertainment pos purchase fpos treehouse indoor placalga
+__label__bills_utilities frontier comm corp web
+__label__shopping galaxy comics inc brooklyn ny <num> <date>
+__label__bills_utilities geico *auto 800-841- <num> dc
+__label__groceries purchase authorized on <date> giant <num> falls church va <id> card <num>
+__label__gifts_donations gofundme help rachel redwood city ca <date>
+__label__gifts_donations purchase authorized on <date> gofundme help sing redwood city ca <id> card <num>
+__label__income_deposits goodwill of nga payroll <num> <acct> pinto henry
+__label__income_deposits money transfer authorized on <date> from gopuff pa <id> card <num>
+__label__uncertain_ambiguous_merchant greenfield pantry
+__label__travel greyhound
+__label__income_deposits gusto pay <num> <num> <id> rozilyn weems
+__label__uncertain_ambiguous_merchant hanini market
+__label__uncertain_ambiguous_merchant harborside mart
+__label__groceries purchase authorized on <date> harris teeter #027 falls church va <id> card <num>
+__label__travel hilton garden inn calg calgary ab
+__label__travel purchase authorized on <date> homewood suites falls church va <id> card <num>
+__label__subscriptions_entertainment checkcard <num> hotmart candybarmegapac xxx-xx <num> de <acct>
+__label__transfers hr402 tfr-to <num>
+__label__groceries pos adjustment - ic instacart httpsinstacarca ic instacart httpsinstacarca pos adjustment - cr
+__label__debt_credit_payments web initiated payment at brigit-com protection <id> <num>
+__label__health_wellness insurance ab blue cross
+__label__bills_utilities insurance chubb life insurance co
+__label__bills_utilities insurance economical mutual ins. company
+__label__debt_credit_payments interbankcleo salar <num> <date> c
+__label__income_deposits interest earned
+__label__professional_services intuit *turbotax vis <num> cl.intuit.c ca debit card purchase * <num>
+__label__food_drink jersey mikes <num> vis <num> fairfax va debit card purchase <acct>
+__label__travel checkcard <num> jetblue <acct> salt lake citut <acct>
+__label__shopping purchase authorized on <date> kc beauty mart inc falls church va <id> card <num>
+__label__debt_credit_payments klarna klarna.com oh <date>
+__label__debt_credit_payments purchase klarna*temu
+__label__debt_credit_payments purchase authorized on <date> klarna*temu columbus oh <id> card <num>
+__label__health_wellness la fitness
+__label__travel purchase authorized on <date> laz parking m <num> nashville tn <id> card <num>
+__label__groceries purchase authorized on <date> lidl # <num> falls church va <id> card <num>
+__label__shopping debit purchase lowe's # <num> bonney lake wa <date> card <num>
+__label__travel lyft ride fri 4am 855-865- <num> ca <date>
+__label__travel lyft ride mon 8am 855-865- <num> ca
+__label__travel purchase authorized on <date> lyft ride thu 7a 855-865- <num> ca <id> card <num>
+__label__groceries maplebear, inc. san francisco ca <num> <date>
+__label__travel masabi <id> ride
+__label__health_wellness purchase authorized on <date> mce outpatient pharmacy - nashville tn <id> card <num>
+__label__health_wellness merchant payment cvs/pharm <num> - - <num> <num> --250 west 144th s riverdale il on <num> from card#: <acct>
+__label__health_wellness merchant payment - 306t21 walgreens <num> w 95th chicago il on <num> from card#: <acct>
+__label__travel purchase authorized on <date> meridien hotels new orleans la <id> card <num>
+__label__uncertain_ambiguous_merchant metro mart 4 <num> w highland av hermistonor c# * <num> pos deb <num> <date> <id>
+__label__subscriptions_entertainment mgm*betmgm cr & db jersey city nj
+__label__gifts_donations miscellaneous payment world vision canada
+__label__transfers moneygram us https://www.f tx <date>
+__label__education monroe college bx burs 646- <num> ny <date>
+__label__fees_adjustments monthly service fee
+__label__bills_utilities purchase authorized on <date> natl gen ins*nps4e ny <id> card <num>
+__label__food_drink purchase authorized on <date> nyx*snack shop ven scottsburg va <id> card <num>
+__label__automotive o'reilly auto parts 825
+__label__automotive o'reilly <num> n <num> <num> rio grande c tx pos purchase pos* <num> * <num> rio
+__label__professional_services pos purchase opos www.mowsnowpros.com + <num>
+__label__subscriptions_entertainment pos purchase opos amzn apps ca www.a
+__label__professional_services pos purchase opos in *numbers team inccalga
+__label__fees_adjustments overdraft fee redstone-fcu <num> / rutherford blvd murfreesboro tnus
+__label__fees_adjustments overdraft interest
+__label__health_wellness parkchester pharmacy bronx ny <date>
+__label__travel parkup parking app httpsparkup.a ca <date>
+__label__health_wellness pf santa fe spri type: iclub fees id: gxx <num> co: pf santa fe spri ach ecc
+__label__subscriptions_entertainment purchase <num> philo tv httpsphilo.coca <acct> recurring
+__label__travel plat parking 133 dallas tx <date>
+__label__shopping platos closet <num>
+__label__food_drink purchase authorized on <date> pollo campero r019 falls church va <id> card <num>
+__label__food_drink purchase authorized on <date> popeye's <num> falls church va <id> card <num>
+__label__bills_utilities progressive ins 800-776- <num> oh
+__label__debt_credit_payments recurring payment authorized on <date> progressive leasin 877-898- <num> ut <id> card <num>
+__label__debt_credit_payments recurring payment authorized on <date> rent a center e-co tx <id> card <num>
+__label__groceries purchase return authorized on <date> lidl # <num> falls church va <id> card <num>
+__label__fees_adjustments return item/overdraft
+__label__subscriptions_entertainment checkcard <num> riot fest corporati chicago il <acct>
+__label__health_wellness rite aid
+__label__health_wellness withdrawal pos / rite aid <num> <num> noblestown road
+__label__automotive roger`s tire shop vis <num> rio grande tx debit card purchase * <num>
+__label__subscriptions_entertainment purchase authorized on <date> round1 am2 - scm w tukwila wa <id> card <num>
+__label__uncertain_ambiguous_merchant mobile purchase <num> sarah mart chicago il <acct>
+__label__gifts_donations recurring payment authorized on <date> scouting* donation www.scouting. tx <id> card <num>
+__label__fees_adjustments service charge
+__label__fees_adjustments service charge monthly fees
+__label__fees_adjustments to share 00 paper stm fee tf
+__label__gas checkcard <num> shell service apex nc
+__label__food_drink purchase authorized on <date> sobro vending llc arlington tx <id> card <num>
+__label__shopping purchase authorized on <date> southern pig & cat ocala fl <id> card <num>
+__label__shopping sp carpe httpsmycarpe. nc <date>
+__label__food_drink purchase authorized on <date> sp thee [name] theecookiegal tx <id> card <num>
+__label__uncertain_unidentifiable withdrawal pos / special way 721 north 4th stre us toronto
+__label__bills_utilities spectrum
+__label__uncertain_ambiguous_merchant purchase authorized on <date> sq *haz management orlando fl <id> card <num>
+__label__income_deposits * <num> ssi xxsupp secssi treas 310 ach credit sec
+__label__bills_utilities state farm
+__label__income_deposits stripe lyft 01-16 <acct> r5e0
+__label__income_deposits stripe lyft 11-28 st- <id> ccd id: <id>
+__label__income_deposits stripe lyft 08-13 <acct> v6w7
+__label__income_deposits stripe transfer <acct> e5m2
+__label__transfers money transfer authorized on <date> super pay/super pay 18 san francisc ca <id> card <num>
+__label__bills_utilities purchase authorized on <date> t-mobile <num> atlantic bl maywood ca <id> card <num>
+__label__bills_utilities t-mobile fdc paymen <num> <num> [name]
+__label__food_drink tia's taco hut / nb new braunfelstx
+__label__automotive <id> tire savannah ga***
+__label__education tms*monroe college 800-609- <num> ny <date>
+__label__travel the toll roads of oc ca <date>
+__label__debt_credit_payments ach transaction - cleo ai cleo ai <id> ach debit
+__label__debt_credit_payments ach transaction - empower inc 39 ach debit
+__label__bills_utilities ach transaction - verizon vz billpay <id> ach debit
+__label__travel <id> trip help.uber.comca***
+__label__food_drink checkcard <num> tst* [name] - 888 c boston ma <acct>
+__label__income_deposits uber instantpay deposit
+__label__travel uber one
+__label__travel uber *one <id> ca <date>
+__label__travel uber pass help.uber.com ca <date>
+__label__travel pos db uber techn <num> <date> 405
+__label__travel pos db uber *tr <num> <date> <num>
+__label__travel uber* trip www.uber.com ca <date>
+__label__travel purchase <num> uber* trip ciudad de mex00 <acct>
+__label__travel checkcard <num> ubr* pending.u san franciscoca
+__label__fees_adjustments uncollected protection deposit
+__label__income_deposits universal city d batch ppd id: <id>
+__label__transfers uq425 tfr-to <num>
+__label__transfers usaa funds transfer cr
+__label__bills_utilities pos debit- <num> <num> verizon bill payme verizon.com fl
+__label__bills_utilities verizon wireless des:payments id: <acct> indn: <acct> co id: <acct> ppd
+__label__bills_utilities ach verizon wireless payments ppd <id> 13
+__label__automotive pos debit - visa check card <num> - advance auto parts jonesboro [name] pos transaction
+__label__health_wellness pos debit - visa check card <num> - afc urgent care al <num> kokhita horton pos transaction
+__label__automotive pos debit - visa check card <num> - autozone <num> <num> 11 irvingt kokhita horton pos transaction
+__label__automotive pos debit - visa check card <num> - dobi tires autocare riverdal [name] pos transaction
+__label__automotive pos debit - visa check card <num> - ogorman motors 973- <num> nj kokhita horton pos transaction
+__label__health_wellness pos debit - visa check card <num> - orange st dental a <num> kokhita horton pos transaction
+__label__food_drink pos debit - visa check card <num> - popeyes <num> csd telniasofnj kokhita horton pos transaction
+__label__bills_utilities pos debit - visa check card <num> - scana energy rec <id> [name] pos transaction
+__label__gas debit purchase -visa chevron <num> hesperia ca <date> card <num>
+__label__bills_utilities debit purchase -visa comcast <id> -266- <num> wa <date> card <num>
+__label__uncertain_ambiguous_merchant debit purchase -visa pic n pump apple valleyca <date> card <num>
+__label__professional_services debit purchase -visa sq *1-800-got-jubonney lake wa <date> card <num>
+__label__food_drink purchase authorized on <date> waffle house houston tx <id> card <num>
+__label__uncertain_unidentifiable mobile purchase <num> #12 wake county a apex nc <acct>
+__label__health_wellness walgreens
+__label__health_wellness purchase authorized on <date> walgreens # <num> orlando fl <id> card <num>
+__label__health_wellness walgreens stor n <num> <id> va pos purchase <id> <num> leesburg
+__label__health_wellness purchase authorized on <date> walgreens store <num> 16th seattle wa <id> card <num>
+__label__health_wellness purchase authorized on <date> walgreens store <num> long south gate ca <id> card <num>
+__label__health_wellness purchase authorized on <date> walgreens store 401 poins clearwater be fl <id> card <num>
+__label__uncertain_ambiguous_merchant purchase authorized on <date> wawa <num> ocala fl <id> card <num>
+__label__shopping pos purchase winners 508 winners 508 ed
+__label__cash_out_atm <acct> <date> # <acct> withdrwl metro main fl mei
+__label__transfers ww503 tfr-fr <num>
+__label__food_drink purchase zaxbys <num>
+__label__transfers zelle payment from christiana ohenewaah <id>
+__label__transfers zelle pmt theresa <id>
+__label__transfers zelle transfer from jarnycia o lyons
+__label__debt_credit_payments zip co us* quadpay any 188- <id> ny

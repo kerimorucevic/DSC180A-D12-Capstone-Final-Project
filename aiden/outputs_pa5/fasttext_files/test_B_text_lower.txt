@@ -1,0 +1,90 @@
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date 09/21/25 24388865264128279200917 5815/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date 09/26/25 24388865269130379732083 5815/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase meetdapper.com el segundo ca date 11/09/25 24388865313150526453843 5815/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase nflallday.com el segundo ca date 11/27/25 24388865331159093511386 5815/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk*draftkingsvbyp 6179866744 ma date 12/08/25 24036295342714533423346 7801/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk*draftkingsfybu 6179866744 ma date 12/18/25 24036295352716236295449 7801/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase fanduelcasprimary 9717083015 nj date 12/24/25 24036295358744194493784 7801/withdrawal debit card debit-purchase
+__label__subscriptions_entertainment withdrawal debit card debit-purchase dk*draftkings6gyg 6179866744 ma date 12/29/25 24036295363718949860656 7801/withdrawal debit card debit-purchase
+__label__transfers online transfer to anderson p way2save savings xxxxxx6560 ref #ib0tvwd83h on 09/12/25
+__label__transfers online transfer to anderson p everyday checking xxxxxx4732 ref #ib0vcm2cp3 on 10/18/25
+__label__transfers online transfer from anderson p way2save savings xxxxxx6560 ref #ib0vf63vxb on 10/23/25
+__label__transfers online transfer to anderson p way2save savings xxxxxx6560 ref #ib0vj9fjhl on 10/31/25
+__label__transfers online transfer to anderson p everyday checking xxxxxx4732 ref #ib0vywzgtp on 12/07/25
+__label__transfers online transfer from anderson p way2save savings xxxxxx6560 ref #ib0w3dm8fj on 12/13/25
+__label__transfers online transfer from anderson p everyday checki
+__label__subscriptions_entertainment apple.com/bill ca 12/18
+__label__subscriptions_entertainment real time payment credit recd from aba/contr bnk-042000314 from: crowncoins casino/crowncoins casino cre ref: ir76fa1y1i55juh info: text-/vxr/00100000232645741rmtinf-crowncoins casino iid: 20251214042000314p1bopfx01075763526 recd: 00:14:41 trn: 2196242347ge
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__transfers cash app
+__label__debt_credit_payments dave inc los angeles ca 08/05
+__label__debt_credit_payments dave inc los angeles ca 09/22
+__label__gas shell
+__label__food_drink uber eats
+__label__transfers money transfer authorized on 10/02 apple cash sent mo 1infiniteloop ca s385275559048630 card 8154
+__label__debt_credit_payments deposit debit card moneylion new york ny date 12/18/25 74669865352674151741516 6051/deposit debit card
+__label__debt_credit_payments deposit debit card moneylion new york ny date 12/23/25 34669865357677156771564 6051/deposit debit card
+__label__debt_credit_payments deposit debit card moneylion new york ny date 01/08/26 24669866008555720557203 6051/deposit debit card
+__label__finance_investments robinhood
+__label__finance_investments robinhood
+__label__subscriptions_entertainment amazon prime
+__label__subscriptions_entertainment crowncoins ga 09/26
+__label__subscriptions_entertainment crowncoins ga 12/13
+__label__food_drink purchase authorized on 11/04 ctlp*canteen vendi charlotte nc s305309120996708 card 6359
+__label__food_drink purchase authorized on 11/20 ctlp*canteen vendi charlotte nc s385324332292092 card 6359
+__label__debt_credit_payments earnin
+__label__subscriptions_entertainment purchase authorized on 09/09 fanatics sportsboo new york ny s305253076105534 card 8154
+__label__subscriptions_entertainment purchase authorized on 09/13 fanatics sportsboo new york ny s585257157242016 card 8154
+__label__fees_adjustments non-chase atm fee-with
+__label__subscriptions_entertainment spotify
+__label__transfers zelle to santi on 10/05 ref # wfct0zc38ctk
+__label__transfers zelle to santi on 10/27 ref # wfct0zff443d
+__label__subscriptions_entertainment apple
+__label__cash_out_atm atm withdrawal 008324 08/235137 s pu
+__label__transfers money transfer authorized on 08/01 from [name] az s465213706518742 card 4448
+__label__debt_credit_payments recurring payment authorized on 12/18 beem app trybeem.com ca s465352776829908 card 8154
+__label__debt_credit_payments withdrawal bill payment #528910553813 grant repayment san francisco ca card 426807/withdrawal bill payment #528910553813
+__label__debt_credit_payments withdrawal bill payment #000011329649 oneblinc salary adv 1111 brickell ave miami fl/withdrawal bill payment #000011329649
+__label__groceries purchase authorized on 11/13 carniceria murrietas mesa az p385317710760083 card 8154
+__label__debt_credit_payments cleo advance exp expres
+__label__subscriptions_entertainment crowncoinscasino.com ga 09/04
+__label__food_drink purchase authorized on 08/25 ctlp*vip vending l peoria az s385238198731376 card 8154
+__label__debt_credit_payments dave davesubfee web id: 2871020853
+__label__income_deposits deposit at atm #000000002008 police and fire fcu 7145 frankford ave philadelphia pa g1a005/deposit at atm #000000002008
+__label__transfers deposit debit card cash app*strazz*cash ou oakland ca date 11/22/25 44829085326137150371910 4829/deposit debit card
+__label__debt_credit_payments deposit debit card *creditgenie cash conshohocken pa date 10/22/25 24943755295591848918483 6051/deposit debit card
+__label__debt_credit_payments deposit debit card onemainlnprcd visa direct in date 01/06/26 14038466006162242622424 6012/deposit debit card
+__label__subscriptions_entertainment purchase authorized on 11/01 dk*draftkingsddhg 6179866744 ma s345305488754557 card 8154
+__label__subscriptions_entertainment purchase authorized on 10/02 dk*draftkingsdgnh 6179866744 ma s465275833553065 card 8154
+__label__subscriptions_entertainment purchase authorized on 12/27 dk*draftkingsgklx 6179866744 ma s385361817056297 card 7549
+__label__subscriptions_entertainment purchase authorized on 11/27 dk*draftkingslvqq 6179866744 ma s385332094605955 card 8154
+__label__subscriptions_entertainment purchase authorized on 12/25 dk*draftkingsprt4 6179866744 ma s355359290500550 card 7549
+__label__subscriptions_entertainment purchase authorized on 08/15 dk*draftkingsy7fq 6179866744 ma s385228005970050 card 8154
+__label__subscriptions_entertainment purchase authorized on 10/26 dk*draftkingsytsf 6179866744 ma s355299850088515 card 8154
+__label__food_drink doordash
+__label__food_drink dunkin' donuts
+__label__subscriptions_entertainment withdrawal ach fanatics sptsbk type: retry pymt id: 935266561q co: fanatics sptsbk/withdrawal ach fanatics sptsbk
+__label__food_drink purchase authorized on 08/30 filibertos (southe mesa az s385243218883405 card 8154
+__label__subscriptions_entertainment purchase authorized on 11/07 fliff, inc pa s385311319798852 card 6359
+__label__debt_credit_payments withdrawal ach float me, corp. type: floatme su id: 8031105000 co: float me, corp./withdrawal ach float me, corp.
+__label__debt_credit_payments recurring payment authorized on 01/01 grant repayment san francisco ca s356001631883627 card 6359
+__label__debt_credit_payments grid* bal pay 8typ33k7 getgrid.app ca 08/30
+__label__subscriptions_entertainment hard rock bet
+__label__debt_credit_payments instacash repayment ny 10/22
+__label__subscriptions_entertainment instant pmt from draftkings instant payments vi-draftkings instant payments vi on 12/31 ref#20251231042000314p1bopfx01082058389 8hs4wd
+__label__food_drink purchase authorized on 11/12 mariscos mi lindo mesa az s305317044964474 card 8154
+__label__debt_credit_payments moneylion
+__label__fees_adjustments withdrawal nsf fee in the amount $50.00 fd sptsbk casino entry class code: web/withdrawal nsf fee
+__label__subscriptions_entertainment purchase authorized on 10/24 sidepot pa s355297423147607 card 6359
+__label__transfers payment from third prty pin no
+__label__debt_credit_payments tilt.com
+__label__debt_credit_payments tilt fka empower 1000615241 ppd id: 7811879144
+__label__health_wellness purchase authorized on 08/26 ucsdh east campus san diego ca s585239075297310 card 5802
+__label__transfers venmo
+__label__subscriptions_entertainment purchase authorized on 12/21 wowvegas.com de s355355389160507 card 6359
+__label__transfers zelle payment from [name] backkld4ksuc
+__label__transfers zelle to edi on 10/30 ref # wfct0zfpl7zb
+__label__transfers zelle to rafael on 09/29 ref # wfct0zbds6sp
