@@ -87,14 +87,31 @@ def tune(cfg, sets, work_dir):
     return final, exp, stab, tuning_s, base
 
 
+def tfidf_logreg(train, val, text_col, C=10.0):
+    """Lecture 3/4 reference baseline: TF-IDF features + logistic regression (L2)."""
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.pipeline import make_pipeline
+    t0 = time.perf_counter()
+    pipe = make_pipeline(TfidfVectorizer(token_pattern=r"\S+", ngram_range=(1, 2), sublinear_tf=True),
+                         LogisticRegression(C=C, max_iter=2000))
+    pipe.fit(train[text_col].fillna(""), train["category"])
+    return pipe.predict(val[text_col].fillna("")), time.perf_counter() - t0
+
+
 def baseline_runs(cfg, sets, work_dir, base):
-    """Majority class and last week's settings on this week's labels, scored on the same validation rows."""
+    """Same validation rows for every baseline: majority class, TF-IDF + logistic regression, and the earlier
+    fastText settings from the course (Lecture 4 starter, PA4 settings)."""
     v = sets["val"]
     maj = sets["train"]["category"].value_counts().idxmax()
     out = [dict(model=f"majority class ({maj})", **scores(v.category, [maj] * len(v)))]
     for tc in ["text_lower", "text_norm"]:
-        m, secs, err = fit(sets["train"], tc, work_dir, base, **cfg["fasttext"]["baseline"])
-        if m is not None:
-            out.append(dict(model=f"previous settings {cfg['fasttext']['baseline']}, {tc}",
-                            **scores(v.category, predict(m, v[tc])[0]), fit_s=round(secs, 3)))
+        p, secs = tfidf_logreg(sets["train"], v, tc)
+        out.append(dict(model=f"TF-IDF + logistic regression, {tc}", **scores(v.category, p), fit_s=round(secs, 3)))
+    for b in cfg["fasttext"]["baselines"]:
+        for tc in ["text_lower", "text_norm"]:
+            m, secs, err = fit(sets["train"], tc, work_dir, base, **b["params"])
+            if m is not None:
+                out.append(dict(model=f"fastText {b['name']}, {tc}",
+                                **scores(v.category, predict(m, v[tc])[0]), fit_s=round(secs, 3)))
     return pd.DataFrame(out)

@@ -88,7 +88,10 @@ def monthly_series(df, model, text_col, cutoff, out, category=None, fred_ids=())
     info["theme"]["groups"] = t.group.value_counts().to_dict()
 
     # quarterly totals line up with BEA's quarterly PCE recreation services
-    q = theme.assign(quarter=theme.month.dt.asfreq("Q")).groupby(["series", "quarter"])[["transactions", "dollars"]].sum()
+    # (partial quarters at either end of the sample are dropped: they would show as fake jumps)
+    q = (theme.assign(quarter=theme.month.dt.asfreq("Q")).groupby(["series", "quarter"])
+         .agg(transactions=("transactions", "sum"), dollars=("dollars", "sum"), months=("month", "nunique")))
+    q = q[q.months == 3].drop(columns="months")
     q.reset_index().to_csv(out / "theme_quarterly.csv", index=False)
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 4))

@@ -2,6 +2,8 @@
 # (data/ and outputs/ are git-ignored).
 paths:
   data_dir: "~/teams/d12/UCSD - Data Share"     # Prism parquet files (DataHub only)
+  account_balances: "~/teams/d12/UCSD - Data Share/ucsd_account_balances.parquet"
+  consumer_links: "~/teams/d12/UCSD - Data Share/ucsd_consumer_account_balances.parquet"
   seed_labels: data/labels_seed.csv              # earlier reviewed labels; their accounts seed the next sample
   review_file: data/review_batch.csv             # AI suggestions + human review decisions
   labels: data/labels_v2.csv                     # final reviewed labels the model trains on
@@ -20,9 +22,23 @@ split:
   test_start: "2026-06-01"
   heldout_account_share: 0.20       # accounts held out entirely for Test B
 
+explore:
+  check_accounts_without_transactions: false   # anti-join of 1M accounts against 2B rows: slow, run once
+  merchant_sample: 200000                      # memos used for measured merchant/pattern frequencies
+
+tfidf_study:                        # Lecture 3 participation question 1
+  n_memos: 100
+  cue_file: null                    # optional hand-marked tokens: memo_raw, token, kind (useful / noise / other)
+  settings:
+    - {name: "max_df = 0.10", kind: max_df, value: 0.10}
+    - {name: "min_df = 2", kind: min_df, value: 2}
+    - {name: "TF-IDF >= 0.3", kind: score, value: 0.3}
+
 sampling:
   bucket_targets: {train: 585, val: 135, test_A: 90, test_B: 90}
   sparse_target: 25                 # aim for >= this many labels per category
+  focus_category: "Subscriptions & Entertainment"   # Project A theme: extra training rows each batch
+  focus_target: 150                 # aim for >= this many training labels in the focus category
   n_general: 1000000                # random memos for Pareto, timing and Project A
 
 review:
@@ -35,7 +51,11 @@ fasttext:
   thread: 1                         # 1 = repeatable runs
   bucket: 200000                    # default 2,000,000 makes a ~1.6 GB model with char n-grams; 200k ~ 160 MB
   defaults: {epoch: 25, lr: 0.1, dim: 100, minCount: 1, wordNgrams: 1, minn: 0, maxn: 0}
-  baseline: {wordNgrams: 2, epoch: 50}         # last week's settings, rerun on this week's labels
+  baselines:                        # earlier course settings, rerun on the current labels (same validation rows)
+    - name: "Lecture 4 starter (wordNgrams=2, 5 epochs)"
+      params: {wordNgrams: 2, epoch: 5}
+    - name: "PA4 group setting (wordNgrams=2, 50 epochs)"
+      params: {wordNgrams: 2, epoch: 50}
   stability_seeds: [0, 1, 2]
   grid:
     text_col: [text_lower, text_norm]

@@ -1,17 +1,29 @@
-"""Entrypoint:  python -m src.main --config config.yaml [--steps prepare,train,evaluate,runtime]
+"""Entrypoint:  python -m src.main --config config.yaml --steps <steps or stage>
 
-Model steps (rerun any time from labels_v2.csv):
-  prepare   validate labels, add cleaned text columns, leakage checks, class counts, Pareto check
-  train     baseline + staged tuning on validation, then fit and save the final model
-  evaluate  per-class report, confusion matrix, errors, review cutoff, Test A / Test B (scored once)
-  runtime   fit / load / inference timing and human review effort
-  monthly   Project A scaffold: monthly count + dollar series by predicted category (needs parquet access)
+The steps follow the quarter (Lectures 2-5, then Project A). A stage name runs its steps in order:
 
-Data and label-quality steps:
-  explore   DuckDB profile of the raw parquet files: totals, by year/month, 70%/85% months, split sizes
-  agreement labeler agreement on the shared multiply-labeled memos (pairwise, unanimous, Fleiss' kappa)
+  l2         explore, merchants        data exploration: parquet + account files, measured merchant frequencies
+  l3         tfidf, agreement          TF-IDF cleaning thresholds vs case/spacing baseline; agreement on shared 100
+  l4         prepare, baseline         reviewed labels + frozen split; majority, TF-IDF + logistic regression and
+                                       first fastText baselines on the same validation rows
+  l5         prepare, train, evaluate, runtime
+                                       tuned fastText, class errors, review cutoff + coverage, Test A / B, runtime
+  project-a  monthly                   Subscriptions & Entertainment monthly series + FRED comparison
+  all        prepare, baseline, train, evaluate, runtime   (default)
 
-Labeling steps (DataHub, run in order when growing the label set):
+Steps:
+  explore    DuckDB profile of the raw parquet files and account/balance/link files
+  merchants  pre-tag rule coverage and top memo patterns per category on a random sample
+  tfidf      Lecture 3 PQ1: three TF-IDF token-removal settings vs the case/spacing-only baseline
+  agreement  labeler agreement on the shared multiply-labeled memos (pairwise, unanimous, Fleiss' kappa)
+  prepare    validate labels, add cleaned text columns, leakage checks, class counts, Pareto check
+  baseline   majority class, TF-IDF + logistic regression, earlier fastText settings
+  train      staged fastText tuning on validation, then fit and save the final model
+  evaluate   per-class report, confusion matrix, errors, review cutoff, Test A / Test B (scored once)
+  runtime    fit / load / inference timing and human review effort
+  monthly    Project A series by predicted category (needs parquet access)
+
+Labeling steps (Lecture 5, DataHub, run in order when growing the label set):
   sample        scan the seed-label accounts, freeze the split, choose the batch, write review_batch.csv
                 -> then review interactively:  python -m src.review --config config.yaml
   audit         score the audit sample; accept deferred AI labels only if <= 5% needed correcting
@@ -31,6 +43,9 @@ from .rules import subcategory
 from .taxonomy import CATEGORIES, parse_category
 
 SPLITS = ["train", "val", "test_A", "test_B"]
+STAGES = {"l2": "explore,merchants", "l3": "tfidf,agreement", "l4": "prepare,baseline",
+          "l5": "prepare,train,evaluate,runtime", "project-a": "monthly",
+          "all": "prepare,baseline,train,evaluate,runtime"}
 
 
 def read_labels(path):
@@ -95,13 +110,11 @@ def load_sets(out):
 
 def step_train(cfg, out):
     from .model import fit, model_mb
-    from .tune import baseline_runs, tune
+    from .tune import tune
     sets = load_sets(out)
     final, exp, stab, tuning_s, base = tune(cfg, sets, out)
     exp.to_csv(out / "experiments.csv", index=False)
     stab.to_csv(out / "stability.csv", index=False)
-    base_tbl = baseline_runs(cfg, sets, out, base)
-    base_tbl.to_csv(out / "baseline.csv", index=False)
     # final fit: tuned winner first; on fastText's NaN bug fall back through other seeds, then the next candidate
     model, note = None, ""
     for rank, cand in enumerate(stab.itertuples()):
@@ -119,11 +132,35 @@ def step_train(cfg, out):
     model.save_model(str(out / "model.bin"))
     info = dict(text_col=text_col, params=final, fit_note=note, fit_s=round(fit_s, 3), train_rows=len(sets["train"]),
                 model_mb=model_mb(model), tuning_s=round(tuning_s, 1), n_runs=len(exp),
-                stability=stab.to_dict("records"), baseline=base_tbl.to_dict("records"))
+                stability=stab.to_dict("records"))
     json.dump(info, open(out / "final_model.json", "w"), indent=2, default=float)
     print(f"train: {text_col} {final} | fit {fit_s:.2f}s | best mean val macro-F1 "
           f"{stab.iloc[0].mean_macro_f1:.3f} ± {stab.iloc[0].sd:.3f}")
     return info
+
+
+def step_baseline(cfg, out):
+    from .tune import baseline_runs
+    ft = cfg["fasttext"]
+    base = dict(thread=ft["thread"], bucket=ft["bucket"], seed=cfg["seed"], **ft["defaults"])
+    tbl = baseline_runs(cfg, load_sets(out), out, base)
+    tbl.to_csv(out / "baseline.csv", index=False)
+    for r in tbl.itertuples():
+        print(f"baseline: {r.model:60s} acc={r.accuracy:.3f} macro-F1={r.macro_f1:.3f}")
+    return tbl.to_dict("records")
+
+
+def sample_memos(cfg, out, n):
+    """Random parquet memos when reachable (DataHub), otherwise the labeled memos."""
+    try:
+        from .data import general_sample
+        g = general_sample(cfg)
+        g = g[g.memo_raw.str.strip() != ""].head(n)
+        return g.memo_raw.tolist(), g.direction.tolist(), "random parquet sample"
+    except Exception as e:
+        lab = read_labels(cfg["paths"]["labels"])
+        return (lab.memo_raw.fillna("").tolist(), lab.get("direction", pd.Series([None] * len(lab))).tolist(),
+                f"labeled memos (parquet not reachable: {type(e).__name__})")
 
 
 def step_evaluate(cfg, out):
@@ -183,17 +220,18 @@ def step_sample(cfg):
     print("next: python -m src.review --config config.yaml")
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--config", default="config.yaml")
-    ap.add_argument("--steps", default="prepare,train,evaluate,runtime")
-    a = ap.parse_args()
-    cfg = load_config(a.config)
+def run(config="config.yaml", steps="all"):
+    """Run steps and/or stages; returns the updated metrics dict (also saved to outputs/metrics.json)."""
+    cfg = load_config(config)
     out = cfg["paths"]["out_dir"]
-    steps = [s.strip() for s in a.steps.split(",") if s.strip()]
+    todo = []
+    for s in [x.strip() for x in steps.split(",") if x.strip()]:
+        for t in STAGES.get(s, s).split(","):
+            if t not in todo:
+                todo.append(t)
     mpath = out / "metrics.json"
     metrics = json.load(open(mpath)) if mpath.exists() else {}
-    for s in steps:
+    for s in todo:
         if s == "sample":
             step_sample(cfg)
         elif s == "audit":
@@ -206,6 +244,8 @@ def main():
             build_labels(cfg, read_labels(cfg["paths"]["seed_labels"]), plan)
         elif s == "prepare":
             _, metrics["labels"] = step_prepare(cfg, out)
+        elif s == "baseline":
+            metrics["baseline"] = step_baseline(cfg, out)
         elif s == "train":
             metrics["model"] = step_train(cfg, out)
         elif s == "evaluate":
@@ -217,16 +257,35 @@ def main():
         elif s == "explore":
             from .explore import profile
             metrics["data"] = profile(cfg, out)
+        elif s == "merchants":
+            from .explore import merchant_frequencies
+            memos, dirs, src = sample_memos(cfg, out, cfg["explore"]["merchant_sample"])
+            metrics["merchants"] = dict(source=src, **merchant_frequencies(memos, dirs, out))
+        elif s == "tfidf":
+            from .tfidf_study import study
+            memos, dirs, src = sample_memos(cfg, out, 10 ** 6)
+            cf = cfg["tfidf_study"].get("cue_file")
+            manual = pd.read_csv(cf) if cf else None
+            metrics["tfidf_study"] = dict(source=src, **study(cfg, memos, dirs, out, manual))
         elif s == "agreement":
             from .agreement import agreement
             metrics["agreement"] = agreement(cfg, out)
         else:
             raise SystemExit(f"unknown step {s!r}")
         json.dump(metrics, open(mpath, "w"), indent=2, default=lambda x: x.item() if hasattr(x, "item") else str(x))
-    manifest = dict(created=time.strftime("%Y-%m-%d %H:%M"), steps=steps,
+    manifest = dict(created=time.strftime("%Y-%m-%d %H:%M"), steps=todo,
                     fasttext=getattr(fasttext, "__version__", "?"), pandas=pd.__version__,
                     files=sorted(p.name for p in out.iterdir() if p.is_file() and not p.name.startswith("_")))
     json.dump(manifest, open(out / "manifest.json", "w"), indent=2)
+    return metrics
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--config", default="config.yaml")
+    ap.add_argument("--steps", default="all", help="comma-separated steps and/or stages (l2, l3, l4, l5, project-a, all)")
+    a = ap.parse_args()
+    run(a.config, a.steps)
 
 
 if __name__ == "__main__":

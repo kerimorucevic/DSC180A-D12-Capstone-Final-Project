@@ -4,8 +4,10 @@
   busy account can't dominate. They stay representative, so validation scores mean something.
 - Training bucket is targeted:
   1. sparse categories first: rows the pre-tag rules propose for categories under `sparse_target` labels;
-  2. Pareto head: up to 2 rows from each of the most common memo patterns;
-  3. random remainder: memos no rule recognizes, so the model doesn't only see easy cases.
+  2. focus category (Project A theme, Subscriptions & Entertainment): extra rows across its rule groups
+     (streaming, events & games, gambling capped at a third) until it reaches `focus_target` labels;
+  3. Pareto head: up to 2 rows from each of the most common memo patterns;
+  4. random remainder: memos no rule recognizes, so the model doesn't only see easy cases.
 """
 import math
 from collections import Counter
@@ -86,6 +88,22 @@ def choose_batch(cfg, pool, plan, prior_labels=None):
         got = _pick(cand.head(want * 3), want, cap_tr, taken, acct_counts, rng)
         train_ids += got
         boost[c] = len(got)
+    # focus category (Project A theme): extra rows spread over its rule groups, gambling capped at a third
+    focus, focus_ids = cfg["sampling"].get("focus_category"), []
+    if focus:
+        tr["rule_id"] = [pretag(m, d)[2] for m, d in zip(tr["memo_raw"], tr["direction"])]
+        want = min(cfg["sampling"].get("focus_target", 0) - have.get(focus, 0), int(0.25 * T))
+        cand = tr[(tr.rule_cat == focus) & ~tr.index.isin(taken)]
+        if want > 0 and len(cand):
+            groups = cand.groupby(cand.rule_id.fillna("other"))
+            quota = {g: (want // 3 if g == "gambling" else want) for g in groups.groups}
+            per = max(1, want // max(len(quota), 1))
+            for g, part in groups:
+                part = part.iloc[rng.permutation(len(part))]
+                part = part.assign(_r=part.groupby("pattern").cumcount()).sort_values("_r", kind="stable")
+                focus_ids += _pick(part, min(per, quota[g]), cap_tr, taken, acct_counts, rng)
+            train_ids += focus_ids
+        boost[f"focus: {focus}"] = len(focus_ids)
     head_ids = []
     for p in tr["pattern"].value_counts().index:
         if len(head_ids) >= int(0.35 * T):
@@ -96,7 +114,7 @@ def choose_batch(cfg, pool, plan, prior_labels=None):
     chosen["train"] = train_ids
 
     batch = pd.concat([pool.loc[ids].assign(bucket=b) for b, ids in chosen.items()])
-    batch = batch.drop(columns=["rule_cat"], errors="ignore").reset_index(drop=True)
+    batch = batch.drop(columns=["rule_cat", "rule_id"], errors="ignore").reset_index(drop=True)
     short = {b: targets[b] - len(ids) for b, ids in chosen.items() if len(ids) < targets[b]}
     print(f"selected {len(batch)} memos | sparse boost {boost} | Pareto head {len(head_ids)}"
           + (f" | SHORT: {short}" if short else ""))
