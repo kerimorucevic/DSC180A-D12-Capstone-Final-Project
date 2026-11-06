@@ -165,8 +165,9 @@ def step_monthly(cfg, out, metrics):
     from .monthly import monthly_series
     info = json.load(open(out / "final_model.json"))
     cut = metrics.get("evaluate", {}).get("cutoff", {}).get("value", 0.9)
+    pa = cfg["project_a"]
     return monthly_series(general_sample(cfg), load(out / "model.bin"), info["text_col"], cut, out,
-                          cfg["project_a"]["category"])
+                          pa["category"], [f["id"] for f in pa.get("fred_series", [])])
 
 
 def step_sample(cfg):

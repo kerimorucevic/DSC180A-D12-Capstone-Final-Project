@@ -62,7 +62,7 @@ python -m src.main --config config.yaml --steps monthly       # Project A series
 | `train` | Majority-class and previous-settings baselines, staged tuning on validation, final fit and saved model |
 | `evaluate` | Per-class P/R/F1, confusion matrix, error table, review cutoff, Test A and Test B scored once |
 | `runtime` | Fit time, model load time, inference rows/second, estimated time for 1M memos and the full dataset, human review time |
-| `monthly` | Monthly transaction count and dollars per predicted category from accepted predictions |
+| `monthly` | Project A: monthly series per predicted category, Subscriptions & Entertainment broken into groups, FRED download |
 
 **Data and label quality:**
 
@@ -151,6 +151,36 @@ best mean validation macro-F1 wins. Test sets are scored once with the final mod
 seen vs unseen memo patterns, share of memo words never seen in training, Test A vs Test B with class mix and the gambling slice. Review coverage: a
 prediction is accepted when its score clears a cutoff chosen on validation (highest row coverage with at most 5%
 error among accepted rows); the rest goes to human review. Row and dollar coverage are both reported.
+
+## Project A theme: Subscriptions & Entertainment
+
+The `monthly` step runs the final model over the random sample, keeps accepted predictions (score above the
+review cutoff), and builds monthly transaction counts, dollars and active-account measures for Subscriptions &
+Entertainment. Within the category, memos are grouped by the pre-tag rule that matches them:
+
+| Group | Examples |
+|---|---|
+| streaming & subscriptions | Netflix, Spotify, Hulu, Apple.com/bill, YouTube, memberships |
+| events & games | Ticketmaster, AMC, Xbox, Steam, theme parks, bowling |
+| gambling | DraftKings, FanDuel, PrizePicks, lottery, casinos |
+| other | memos the model put in the category that no rule recognizes |
+
+Gambling is reported separately and every series is also given excluding gambling, because it was a large,
+volatile share of this category (about 30% of Test B memos).
+
+External comparison (`project_a.fred_series` in `config.yaml`):
+
+| FRED series | What it is | Compare with |
+|---|---|---|
+| `DRCARC1Q027SBEA` | PCE: Recreation services, billions of dollars SAAR, quarterly (BEA; includes gambling) | `theme_quarterly.csv` dollars, series "all" |
+| `CUUR0000SERA02` | CPI: Cable, satellite, and live streaming TV service, monthly, not seasonally adjusted | streaming & subscriptions group |
+| `CPIRECSL` | CPI: Recreation, monthly, seasonally adjusted | dollars per active account |
+
+Compare growth rates and turning points, not levels: our sample covers Prism accounts, not the US population,
+and the national series are seasonally adjusted while ours are not.
+
+Outputs: `theme_monthly.csv`, `theme_monthly_by_group.csv`, `theme_quarterly.csv`, `theme_monthly.png`,
+`fred_series.csv` (when FRED is reachable).
 
 ## Outputs (`outputs/`)
 

@@ -63,4 +63,11 @@ agreement:                          # shared memos labeled by every group member
   final_column: Final Agreed Upon
 
 project_a:
-  category: null                    # e.g. "Subscriptions & Entertainment" once the group decides
+  category: "Subscriptions & Entertainment"
+  fred_series:                      # external comparison (downloaded by the monthly step when FRED is reachable)
+    - id: DRCARC1Q027SBEA           # PCE: Recreation services, $bn SAAR, quarterly (BEA; includes gambling)
+      compare: theme_quarterly.csv dollars, series "all"
+    - id: CUUR0000SERA02            # CPI: Cable, satellite, and live streaming TV service, monthly, NSA
+      compare: theme_monthly_by_group.csv, group "streaming & subscriptions"
+    - id: CPIRECSL                  # CPI: Recreation, monthly, SA
+      compare: theme_monthly.csv dollars_per_active_account
