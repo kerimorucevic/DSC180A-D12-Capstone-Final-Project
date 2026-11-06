@@ -1,93 +1,43 @@
-# Paths are relative to the repo root unless absolute. Transaction data and labels stay on DataHub
-# (data/ and outputs/ are git-ignored).
+# Paths are relative to the repo root unless absolute. Memos and labels stay on DataHub (data/ and outputs/
+# are git-ignored).
 paths:
-  data_dir: "~/teams/d12/UCSD - Data Share"     # Prism parquet files (DataHub only)
-  account_balances: "~/teams/d12/UCSD - Data Share/ucsd_account_balances.parquet"
-  consumer_links: "~/teams/d12/UCSD - Data Share/ucsd_consumer_account_balances.parquet"
-  seed_labels: data/labels_seed.csv              # earlier reviewed labels; their accounts seed the next sample
-  review_file: data/review_batch.csv             # AI suggestions + human review decisions
-  labels: data/labels_v2.csv                     # final reviewed labels the model trains on
-  split_plan: data/split_plan.json               # frozen cutoffs + held-out accounts (commit-safe, no memos)
-  suggest_model: null                            # optional earlier fastText model used as a second suggester
+  data_dir: "~/teams/d12/UCSD - Data Share"     # Prism parquet files
+  seed_labels: data/labels_seed.csv              # earlier reviewed labels; their accounts seed the next batch
+  review_file: data/review_batch.csv             # suggested labels + review decisions
+  labels: data/labels_v2.csv                     # reviewed labels the model trains on
+  split_plan: data/split_plan.json               # frozen cutoffs + held-out accounts
+  suggest_model: null                            # earlier fastText model for a second suggestion (optional)
   out_dir: outputs
 
 data:
   parquet_glob: "ucsd_transactions_part_*.parquet"
 
 seed: 0
-text_col: auto            # text_lower | text_norm | auto (compare both during tuning)
 
 split:
   val_start: "2026-04-01"           # train < val_start <= validation < test_start <= test
   test_start: "2026-06-01"
   heldout_account_share: 0.20       # accounts held out entirely for Test B
 
-explore:
-  check_accounts_without_transactions: false   # anti-join of 1M accounts against 2B rows: slow, run once
-  merchant_sample: 200000                      # memos used for measured merchant/pattern frequencies
-
-tfidf_study:                        # Lecture 3 participation question 1
-  n_memos: 100
-  cue_file: null                    # optional hand-marked tokens: memo_raw, token, kind (useful / noise / other)
-  settings:
-    - {name: "max_df = 0.10", kind: max_df, value: 0.10}
-    - {name: "min_df = 2", kind: min_df, value: 2}
-    - {name: "TF-IDF >= 0.3", kind: score, value: 0.3}
-
 sampling:
   bucket_targets: {train: 585, val: 135, test_A: 90, test_B: 90}
-  sparse_target: 25                 # aim for >= this many labels per category
-  focus_category: "Subscriptions & Entertainment"   # Project A theme: extra training rows each batch
-  focus_target: 150                 # aim for >= this many training labels in the focus category
-  n_general: 1000000                # random memos for Pareto, timing and Project A
+  rare_target: 25                   # aim for at least this many labels per category
 
 review:
   audit_fraction: 0.25
   audit_min: 30
-  audit_max_error: 0.05             # accept unreviewed high-confidence AI labels only if <= 5% of the audit was wrong
-  suggest_model: false
+  audit_max_error: 0.05
 
 fasttext:
-  thread: 1                         # 1 = repeatable runs
-  bucket: 200000                    # default 2,000,000 makes a ~1.6 GB model with char n-grams; 200k ~ 160 MB
+  thread: 1                         # repeatable runs
+  bucket: 200000                    # default 2,000,000 makes a ~1.6 GB model with character n-grams
   defaults: {epoch: 25, lr: 0.1, dim: 100, minCount: 1, wordNgrams: 1, minn: 0, maxn: 0}
-  baselines:                        # earlier course settings, rerun on the current labels (same validation rows)
-    - name: "Lecture 4 starter (wordNgrams=2, 5 epochs)"
-      params: {wordNgrams: 2, epoch: 5}
-    - name: "PA4 group setting (wordNgrams=2, 50 epochs)"
-      params: {wordNgrams: 2, epoch: 50}
-  stability_seeds: [0, 1, 2]
+  seeds: [0, 1, 2]
   grid:
     text_col: [text_lower, text_norm]
-    wordNgrams: [1, 2, 3]
-    char_ngrams: [[0, 0], [3, 5], [2, 5]]
-    minCount: [1, 2, 5]
+    wordNgrams: [1, 2]
+    char_ngrams: [[0, 0], [3, 5]]
     stage1_epoch: 50
     stage1_lr: 0.5
-    epoch: [5, 25, 50, 100]
-    lr: [0.05, 0.1, 0.5, 1.0]
-    dim: [50, 100, 200]
-
-evaluate:
-  cutoffs: [0.0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95]
-  max_accepted_error: 0.05
-
-runtime:
-  n_rows: 1000000
-  batch: 10000
-  full_rows: 2017117849             # rows in the 15 parquet files (report section 3.3)
-
-agreement:                          # shared memos labeled by every group member
-  file: data/labels100_final_agreed.csv
-  labelers: [Vanessa Categories, Aiden Categories, Katie Categories, Kerim Categories]
-  final_column: Final Agreed Upon
-
-project_a:
-  category: "Subscriptions & Entertainment"
-  fred_series:                      # external comparison (downloaded by the monthly step when FRED is reachable)
-    - id: DRCARC1Q027SBEA           # PCE: Recreation services, $bn SAAR, quarterly (BEA; includes gambling)
-      compare: theme_quarterly.csv dollars, series "all"
-    - id: CUUR0000SERA02            # CPI: Cable, satellite, and live streaming TV service, monthly, NSA
-      compare: theme_monthly_by_group.csv, group "streaming & subscriptions"
-    - id: CPIRECSL                  # CPI: Recreation, monthly, SA
-      compare: theme_monthly.csv dollars_per_active_account
+    epoch: [25, 50, 100]
+    lr: [0.1, 0.5, 1.0]

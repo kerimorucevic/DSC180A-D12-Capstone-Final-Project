@@ -1,15 +1,55 @@
-"""Ordered regex pre-tag rules ("AI suggestions" shown to reviewers).
+"""The 20-category guide and the rulebook, written as ordered pre-tag rules.
 
-Each rule: (rule_id, category, regex, confidence, required_direction). Rules are checked top to bottom and the
-first match wins, so the order encodes the rulebook's tie-breaks: transaction type beats merchant (an "ATM fee"
-is a fee), income beats generic transfer words, P2P apps beat whoever received the money, and broad merchant
-lists (Shopping) and generic words (adjustment) come last. required_direction lets cash-advance apps count as
-Income / Deposits on credits and Debt / Credit Payments on debits.
+Categories are modeled on the spending categories used by Chase, Bank of America and American Express.
+Many memos fit more than one category, so the rulebook makes labeling decisions consistent:
+  - transaction type over merchant: an "ATM fee" is a Fee, not Cash Out (ATM)
+  - credit/debit direction: cash-advance apps are Income when money comes in, Debt / Credit Payments when a
+    repayment goes out
+  - edge cases: buy-now-pay-later is Debt / Credit Payments; gambling and sportsbooks are Subscriptions &
+    Entertainment
+  - Uncertain only when the memo cannot support any category (truncated merchant name, bare reference number)
 
-Base list: Kerim's PA4/PA5 pretag rules. Added from Aiden's PA5 rules: gambling/sportsbooks, extra
-cash-advance (EWA) apps and buy-now-pay-later services.
+Each pre-tag rule is (rule_id, category, regex, confidence, required_direction) and returns the matched text and a
+high or low confidence. Rules are checked in order and the first match wins, so transaction rules (fees, income,
+ATM withdrawals) come before merchant rules.
 """
 import re
+
+CATEGORIES = [
+    "Transfers", "Food & Drink", "Shopping", "Groceries", "Subscriptions & Entertainment",
+    "Miscellaneous", "Gas", "Income / Deposits", "Cash Out (ATM)", "Fees & Adjustments",
+    "Professional Services", "Debt / Credit Payments", "Finance & Investments", "Automotive",
+    "Travel", "Bills & Utilities", "Health & Wellness", "Gifts & Donations", "Education", "Uncertain",
+]
+CODE = {i + 1: c for i, c in enumerate(CATEGORIES)}      # numbers typed in the review loop
+
+
+def _key(s):
+    return re.sub(r"[^a-z0-9]", "", str(s).lower())
+
+
+_BY_KEY = {_key(c): c for c in CATEGORIES}
+_BY_KEY.update({_key(a): c for a, c in [
+    ("food and drink", "Food & Drink"), ("atm", "Cash Out (ATM)"), ("income", "Income / Deposits"),
+    ("fees", "Fees & Adjustments"), ("debt", "Debt / Credit Payments"), ("entertainment", "Subscriptions & Entertainment"),
+    ("debit / credit payments", "Debt / Credit Payments"), ("misc", "Miscellaneous"),
+    ("uncertain - ambiguous merchant", "Uncertain"), ("uncertain - unidentifiable", "Uncertain"),
+]})
+
+
+def parse_category(s):
+    """'3', 'shopping', 'Food and Drink' -> canonical category name, or None."""
+    s = str(s).strip()
+    return CODE.get(int(s)) if s.isdigit() else _BY_KEY.get(_key(s))
+
+
+def to_label(category):
+    """'Food & Drink' -> '__label__food_drink' (fastText label token)."""
+    return "__label__" + re.sub(r"[^a-z0-9]+", "_", category.lower()).strip("_")
+
+
+LABEL_TO_CATEGORY = {to_label(c): c for c in CATEGORIES}
+
 
 PRETAG_RULES = [
     # ---- 1. Bank fees first: "ATM fee" is a fee, not cash out ----------------------------
@@ -18,8 +58,7 @@ PRETAG_RULES = [
                                            r"interest charge|finance charge|fees?)\b", "high", None),
 
 
-    # ---- 1b. Gambling / sportsbooks (from Aiden's PA5 rules). The guide has no gambling class, so the rulebook
-    #          puts these in Subscriptions & Entertainment; rule_id "gambling" lets us report them separately.
+    # ---- 1b. Gambling / sportsbooks -> Subscriptions & Entertainment (rulebook edge case)
     ("gambling",     "Subscriptions & Entertainment", r"(draftkings|fanduel|fd sptsbk|fanatics sp|sportsbo|prizepicks|underdog|"
                                                       r"lottery|valottery|\bolg\b|betmgm|hard rock bet|crowncoins|chumba|"
                                                       r"wowvegas|fliff|sidepot|casino|nflallday|meetdapper|jbox game|baca game)", "high", None),
@@ -138,21 +177,15 @@ PRETAG_RULES = [
 
 
 _COMPILED = [(rid, cat, re.compile(p, re.I), conf, d) for rid, cat, p, conf, d in PRETAG_RULES]
-SUBCATEGORY = {"gambling": "gambling"}   # rule_id -> subcategory tag
 
 
 def pretag(memo, direction=None):
-    """Return (category, confidence, rule_id, matched_text); all None when no rule matches."""
-    text = str(memo)
+    """First matching rule -> (category, confidence, rule_id, matched_text); all None if nothing matches."""
     direction = str(direction).lower().strip() if direction is not None else None
     for rid, cat, rx, conf, need_dir in _COMPILED:
         if need_dir and direction != need_dir:
             continue
-        m = rx.search(text)
+        m = rx.search(str(memo))
         if m:
             return cat, conf, rid, m.group(0)
     return None, None, None, None
-
-
-def subcategory(memo, direction=None):
-    return SUBCATEGORY.get(pretag(memo, direction)[2], "")

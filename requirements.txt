@@ -5,4 +5,3 @@ pyarrow
 scikit-learn
 matplotlib
 pyyaml
-duckdb                     # explore step
