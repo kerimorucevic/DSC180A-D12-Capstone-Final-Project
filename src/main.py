@@ -7,6 +7,10 @@ Model steps (rerun any time from labels_v2.csv):
   runtime   fit / load / inference timing and human review effort
   monthly   Project A scaffold: monthly count + dollar series by predicted category (needs parquet access)
 
+Data and label-quality steps:
+  explore   DuckDB profile of the raw parquet files: totals, by year/month, 70%/85% months, split sizes
+  agreement labeler agreement on the shared multiply-labeled memos (pairwise, unanimous, Fleiss' kappa)
+
 Labeling steps (DataHub, run in order when growing the label set):
   sample        scan the seed-label accounts, freeze the split, choose the batch, write review_batch.csv
                 -> then review interactively:  python -m src.review --config config.yaml
@@ -209,6 +213,12 @@ def main():
             metrics["runtime"] = step_runtime(cfg, out)
         elif s == "monthly":
             metrics["monthly"] = step_monthly(cfg, out, metrics)
+        elif s == "explore":
+            from .explore import profile
+            metrics["data"] = profile(cfg, out)
+        elif s == "agreement":
+            from .agreement import agreement
+            metrics["agreement"] = agreement(cfg, out)
         else:
             raise SystemExit(f"unknown step {s!r}")
         json.dump(metrics, open(mpath, "w"), indent=2, default=lambda x: x.item() if hasattr(x, "item") else str(x))

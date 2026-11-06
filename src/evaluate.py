@@ -103,10 +103,17 @@ def evaluate(cfg, model, sets, text_col, out):
 
     tests = {s: add_predictions(model, sets[s], text_col, train_patterns) for s in ["test_A", "test_B"]}
     shared = set(tests["test_A"].category) & set(tests["test_B"].category)
+    train_words = set(" ".join(sets["train"][text_col]).split())
+
+    def unseen_share(texts):   # average share of a memo's words never seen in training (Vanessa's PA4 check)
+        sh = [sum(w not in train_words for w in t.split()) / len(t.split()) for t in texts if t.split()]
+        return float(np.mean(sh)) if sh else np.nan
+
     rows = []
     for name, d in [("validation", val), *tests.items()]:
         c = coverage(d, cut)
         rows.append(dict(set=name, **scores(d.category, d.predicted), accounts=d.account_key.nunique(),
+                         unseen_word_share=unseen_share(d[text_col]),
                          pattern_in_train=float(d.pattern_in_train.mean()),
                          acc_seen_patterns=float(d[d.pattern_in_train].correct.mean()) if d.pattern_in_train.any() else np.nan,
                          acc_unseen_patterns=float(d[~d.pattern_in_train].correct.mean()) if (~d.pattern_in_train).any() else np.nan,

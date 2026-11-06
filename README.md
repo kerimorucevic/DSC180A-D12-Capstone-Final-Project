@@ -26,8 +26,11 @@ src/
   evaluate.py        per-class report, confusion matrix, errors, review cutoff, Test A / Test B
   runtime.py         fit, load and inference timing; human review effort
   monthly.py         Project A scaffold: monthly count + dollar series per category
+  explore.py         DuckDB profile of the raw parquet files (totals, by month, 70%/85% cutoff months)
+  agreement.py       labeler agreement on the shared multiply-labeled memos
 notebooks/           earlier PA notebooks (outputs stripped)
 aiden/               Aiden's PA5 notebook and outputs
+Vanessa_PA4.ipynb    Vanessa's PA4 notebook
 data/                labels and review files (git-ignored: transaction memos stay on DataHub)
 outputs/             model, metrics and figures (git-ignored)
 ```
@@ -60,6 +63,18 @@ python -m src.main --config config.yaml --steps monthly       # Project A series
 | `evaluate` | Per-class P/R/F1, confusion matrix, error table, review cutoff, Test A and Test B scored once |
 | `runtime` | Fit time, model load time, inference rows/second, estimated time for 1M memos and the full dataset, human review time |
 | `monthly` | Monthly transaction count and dollars per predicted category from accepted predictions |
+
+**Data and label quality:**
+
+```bash
+python -m src.main --config config.yaml --steps explore       # dataset profile (needs parquet access + duckdb)
+python -m src.main --config config.yaml --steps agreement     # agreement on the shared 100 memos
+```
+
+`explore` reproduces the report's data description (2,017,117,849 transactions, 1,052,849 accounts,
+Jan 2022 to Sep 2026) and the months nearest 70% and 85% of transactions, which set the split cutoffs.
+`agreement` reads the 100-memo file with one column per group member and reports how often all four agreed,
+majority agreement, pairwise agreement, Fleiss' kappa and each person vs the final agreed label.
 
 **Growing the label set (DataHub):**
 
@@ -133,14 +148,14 @@ of character n-grams at the tuned learning settings. The top three settings are 
 best mean validation macro-F1 wins. Test sets are scored once with the final model.
 
 **Evaluation.** Accuracy, macro-F1, majority-class baseline, per-class P/R/F1, confusion matrix, accuracy on
-seen vs unseen memo patterns, Test A vs Test B with class mix and the gambling slice. Review coverage: a
+seen vs unseen memo patterns, share of memo words never seen in training, Test A vs Test B with class mix and the gambling slice. Review coverage: a
 prediction is accepted when its score clears a cutoff chosen on validation (highest row coverage with at most 5%
 error among accepted rows); the rest goes to human review. Row and dollar coverage are both reported.
 
 ## Outputs (`outputs/`)
 
 `metrics.json` (everything below in one file), `class_counts.csv`, `baseline.csv`, `experiments.csv`,
-`stability.csv`, `final_model.json`, `model.bin`, `scores.csv`, `per_class_*.csv`, `confusion.png`,
+`stability.csv`, `final_model.json`, `data_summary.json`, `transactions_by_month.csv`, `agreement.json`, `model.bin`, `scores.csv`, `per_class_*.csv`, `confusion.png`,
 `errors_val.csv`, `coverage_val.csv`, `class_mix.csv`, `predictions.csv`, `monthly_category_series.csv`,
 `manifest.json`.
 
@@ -152,7 +167,9 @@ error among accepted rows); the rest goes to human review. Row and dollar covera
 - `fasttext.bucket` is 200,000 instead of the default 2,000,000, which cuts the model from about 1.6 GB to about
   160 MB with character n-grams on, with little effect at this vocabulary size.
 - Code sources: cleaning, split, sampling, review loop and audit come from Kerim's PA5 notebook; gambling rules,
-  the char n-gram recheck, seen/unseen pattern analysis and the smaller bucket come from Aiden's PA5 notebook.
+  the char n-gram recheck, seen/unseen pattern analysis and the smaller bucket come from Aiden's PA5 notebook;
+  the DuckDB data profile, 70%/85% cutoff derivation, unseen-word share and the 4-labeler 100-memo file
+  (agreement step) come from Vanessa's PA4 notebook.
 
 ## References
 

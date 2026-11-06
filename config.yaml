@@ -57,5 +57,10 @@ runtime:
   batch: 10000
   full_rows: 2017117849             # rows in the 15 parquet files (report section 3.3)
 
+agreement:                          # shared memos labeled by every group member
+  file: data/labels100_final_agreed.csv
+  labelers: [Vanessa Categories, Aiden Categories, Katie Categories, Kerim Categories]
+  final_column: Final Agreed Upon
+
 project_a:
   category: null                    # e.g. "Subscriptions & Entertainment" once the group decides
