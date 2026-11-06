@@ -1,0 +1,61 @@
+# Paths are relative to the repo root unless absolute. Transaction data and labels stay on DataHub
+# (data/ and outputs/ are git-ignored).
+paths:
+  data_dir: "~/teams/d12/UCSD - Data Share"     # Prism parquet files (DataHub only)
+  seed_labels: data/labels_seed.csv              # earlier reviewed labels; their accounts seed the next sample
+  review_file: data/review_batch.csv             # AI suggestions + human review decisions
+  labels: data/labels_v2.csv                     # final reviewed labels the model trains on
+  split_plan: data/split_plan.json               # frozen cutoffs + held-out accounts (commit-safe, no memos)
+  suggest_model: null                            # optional earlier fastText model used as a second suggester
+  out_dir: outputs
+
+data:
+  parquet_glob: "ucsd_transactions_part_*.parquet"
+
+seed: 0
+text_col: auto            # text_lower | text_norm | auto (compare both during tuning)
+
+split:
+  val_start: "2026-04-01"           # train < val_start <= validation < test_start <= test
+  test_start: "2026-06-01"
+  heldout_account_share: 0.20       # accounts held out entirely for Test B
+
+sampling:
+  bucket_targets: {train: 585, val: 135, test_A: 90, test_B: 90}
+  sparse_target: 25                 # aim for >= this many labels per category
+  n_general: 1000000                # random memos for Pareto, timing and Project A
+
+review:
+  audit_fraction: 0.25
+  audit_min: 30
+  audit_max_error: 0.05             # accept unreviewed high-confidence AI labels only if <= 5% of the audit was wrong
+  suggest_model: false
+
+fasttext:
+  thread: 1                         # 1 = repeatable runs
+  bucket: 200000                    # default 2,000,000 makes a ~1.6 GB model with char n-grams; 200k ~ 160 MB
+  defaults: {epoch: 25, lr: 0.1, dim: 100, minCount: 1, wordNgrams: 1, minn: 0, maxn: 0}
+  baseline: {wordNgrams: 2, epoch: 50}         # last week's settings, rerun on this week's labels
+  stability_seeds: [0, 1, 2]
+  grid:
+    text_col: [text_lower, text_norm]
+    wordNgrams: [1, 2, 3]
+    char_ngrams: [[0, 0], [3, 5], [2, 5]]
+    minCount: [1, 2, 5]
+    stage1_epoch: 50
+    stage1_lr: 0.5
+    epoch: [5, 25, 50, 100]
+    lr: [0.05, 0.1, 0.5, 1.0]
+    dim: [50, 100, 200]
+
+evaluate:
+  cutoffs: [0.0, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95]
+  max_accepted_error: 0.05
+
+runtime:
+  n_rows: 1000000
+  batch: 10000
+  full_rows: 2017117849             # rows in the 15 parquet files (report section 3.3)
+
+project_a:
+  category: null                    # e.g. "Subscriptions & Entertainment" once the group decides

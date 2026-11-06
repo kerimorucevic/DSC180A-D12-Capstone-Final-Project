@@ -1,0 +1,13 @@
+# transaction memos and labels stay on DataHub
+data/*
+!data/.gitkeep
+!data/split_plan.json
+outputs/*
+!outputs/.gitkeep
+*.bin
+*.parquet
+_train_*.txt
+
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
