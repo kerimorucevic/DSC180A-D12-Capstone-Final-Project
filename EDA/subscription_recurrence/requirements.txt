@@ -1,0 +1,13 @@
+# Subscription recurrence sensitivity analysis (EDA/subscription_recurrence)
+# Tested with Python 3.11.5, pandas 2.0.3, numpy 1.24.3, matplotlib 3.7.2, pyarrow 11.0.0, pytest 7.4.0,
+# nbconvert 6.5.4, ipykernel 6.25.0. Lower bounds are what the code needs; newer versions are untested.
+pandas>=2.0,<3
+numpy>=1.24,<3
+pyarrow>=11          # reading the parquet cache in real mode
+matplotlib>=3.7
+ipython>=8           # display() inside the notebook
+pytest>=7            # synthetic tests
+nbformat>=5          # executing / clearing the notebook from the command line
+nbconvert>=6
+ipykernel>=6
+# For interactive use also install JupyterLab:  pip install jupyterlab

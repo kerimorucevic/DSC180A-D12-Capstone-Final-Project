@@ -1,0 +1,51 @@
+# Applies to EDA/subscription_recurrence/ only.
+# Restricted data, caches and outputs must never be committed from this folder.
+
+# --- Restricted / transaction data ---
+*.parquet
+*.csv
+*.tsv
+*.feather
+*.db
+*.sqlite
+*.pkl
+*.pickle
+*.h5
+*.xlsx
+*.bin
+full_histories_*
+
+# --- Analysis outputs and private (memo-level) files ---
+outputs_*/
+**/private/
+test_results.txt
+
+# --- Executed notebook copies (only the output-free notebook is committed) ---
+executed_*.ipynb
+*_real*.ipynb
+*_executed*.ipynb
+.ipynb_checkpoints/
+
+# --- Release packages ---
+*.zip
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.env
+.env.*
+.conda/
+
+# --- Editor / OS ---
+.DS_Store
+.vscode/
+.idea/
